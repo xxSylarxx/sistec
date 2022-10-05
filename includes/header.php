@@ -89,7 +89,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php"><!-- <i class="fas fa-home"></i> -->Inicio</a>
+                        <a class="nav-link" aria-current="page" href="./index.php">
+                            <!-- <i class="fas fa-home"></i> -->Inicio
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./nosotros.php"> Nosotros</a>
@@ -99,7 +101,7 @@
                             Carreras Técnicas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Cosmetología</a></li>
+                            <li><a class="dropdown-item" href="cosmetologia.php">Cosmetología</a></li>
                             <li><a class="dropdown-item" href="./gastronomia.php">Gastronomía</a></li>
                             <li><a class="dropdown-item" href="#">Pastelería</a></li>
                             <li><a class="dropdown-item" href="#">Panadería</a></li>
