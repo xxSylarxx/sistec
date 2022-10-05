@@ -23,8 +23,6 @@
             position: relative;
         }
 
-
-
         #slider img {
             /* height: 720px; */
             object-fit: cover;
@@ -34,9 +32,9 @@
         /* Estilos de portada interna */
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/portada_gastronomia.jpg');
+                url('./assets/img/web/ind_vestido_principal.jpg');
             background-size: 100%;
-            background-position: top;
+            background-position: center;
             /* background-attachment: fixed; */
 
             /* background-repeat: no-repeat; */
@@ -294,7 +292,8 @@
             left: 0;
             right: 0;
             width: 100%;
-            height: 80.5%;
+            /* height: 80.5%; */
+            height: 83%;
             content: "";
             background-color: #000000;
             opacity: 0.46;
@@ -686,8 +685,8 @@
             <div class="row justify-content-between">
                 <div class="col-md-8 ">
                     <div id="apply-area" class="py-5">
-                        <img src="./assets/img/web/gastronomia_portada_interna.jpg" alt="">
-                        <div class="course-apply-btn">
+                        <img src="./assets/img/web/ind_vestido_portada.jpg" alt="">
+                        <div class=" course-apply-btn">
                             <a href="#" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
@@ -711,88 +710,90 @@
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active " id="descripcion" role="tabpanel" aria-labelledby="descripcion-tab">
-                                <h1>CARRERA TÉCNICA DE GASTRONOMÍA</h1>
+                                <h1>COMPUTACIÓN</h1>
                                 <p class="mt-3 text-justify" style="color: var(--color4);">
-                                    Como alumno de la Carrera de Gastronomía recibirás
-                                    una formación culinaria integral, con una visión
-                                    empresarial sólida, brindándote las herramientas que
-                                    te permitirán desarrollar habilidades y destrezas para
-                                    alcanzar los estándares que exige el mercado laboral.
+                                    Los cursos que forman parte del Área de computación permitirán al estudiante recibir una sólida formación básica para el manejo de la computadora y las aplicaciones de oficina desarrollando sus habilidades y capacidades que le permitirán desempeñarse como colaborador efectivo en los centros de informática de organizaciones productivas tanto públicas como privadas.
                                 </p>
-                                <img src="./assets/img/web/gastronomia2.jpg" alt="">
+                                <p class="mt-3 text-justify" style="color: var(--color4);">
+                                    Dirigido a Profesionales Técnicos, estudiantes y público en general, que requieran
+                                    actualizarse o adquirir nuevos conocimientos, que le permitan mejorar su perfil
+                                    profesional, optimizar su desempeño laboral, utilizando y administrando herramientas modernas de Tecnología de Información (IT).
+                                </p>
+                                <img src="./assets/img/web/ind_vestido2.jpg" alt="">
                                 <br>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg  d-flex justify-content-start">
                                         <div>
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/tiempo.png" alt="">
-                                            <span class="my-auto">&nbsp;Duracion: 2 años</span>
+                                            <span class="my-auto">&nbsp;Duracion: 8 meses</span>
                                         </div>
                                         <div class="mx-5">
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/certificado2.png" alt="">
-                                            <span class="my-auto">&nbsp;Certificación a Nombre de la Nación</span>
+                                            <span class="my-auto">&nbsp;Certificación a Nombre del Ministerio de Educación</span>
                                         </div>
-
-
-
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade  " id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <p>Al Culminar la carrera podrás laborar en:</p>
+                            <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <!-- <p>La egresada en la carrera de PASTELERÍA estará en capacidad de desempeñarse como:</p> -->
+                                <p>La formación que ofrece la carrera de Técnico en ofimática permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la gestión de información mediante el uso de suites ofimáticas, localmente y en línea, así como la gestión de sistemas operativos y de recursos en red, además de la instalación y operación equipos de cómputo y periféricos, incluyendo dispositivos móviles. Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará: Las siguientes competencias profesionales:</p>
+                                <br>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Hoteles.</p>
+                                    <p>Gestiona sistemas operativos de la ofimática.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Resorts.</p>
+                                    <p>Gestiona información de manera local.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Bares.</p>
+                                    <p>Elaboración de balances, facturas.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Negocioso de catering.</p>
+                                    <p>Manejo de funciones de Excel (funciones lógicas, texto, búsqueda, etc).</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Cruceros.</p>
+                                    <p>Diseña y gestiona bases de datos ofimáticas.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Clínicas.</p>
+                                    <p>Instala y opera equipos de cómputo y periféricos utilizados en la ofimática.</p>
                                 </div>
-                                <div class="d-flex">
-                                    <span><i class="fas fa-check"></i></span>
-                                    <p>Casinos.</p>
-                                </div>
-                                <div class="d-flex">
-                                    <span><i class="fas fa-check"></i></span>
-                                    <p>Empresas del rubro alimentos y bebidas.</p>
-                                </div>
-                                <div class="d-flex">
-                                    <span><i class="fas fa-check"></i></span>
-                                    <p>Gestión de tu propia empresa.</p>
-                                </div>
+                                <!-- <br><br> -->
+                                <!-- <h4>Campo Laboral</h4> -->
+                                <!-- <p>Al término de su formación, el egresado podrá desempeñarse en la industria del vestido, en diversas empresas, talleres de costura y fábricas, dentro del sector público o privado en el área de diseño, producción y confección, o bien, en el ejercicio libre.</p> -->
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 9-12 pm</p>
+                                    <p>Lunes, miércoles y viernes 8-10 am</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 3-6 pm</p>
+                                    <p>Lunes, miércoles y viernes 10-12 pm</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 6-9 pm</p>
+                                    <p>Lunes, miércoles y viernes 4-6 pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Lunes, miércoles y viernes 6-8 am</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Martes y jueves 8-11 am</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Martes y jueves 4-7 pm</p>
                                 </div>
                             </div>
-
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
@@ -807,117 +808,90 @@
                                     <p>1 mica A4</p>
                                 </div>
                             </div>
-
                             <div class="tab-pane fade" id="turno" role="tabpanel" aria-labelledby="turno-tab">
                                 <div class="container">
-
                                     <div class="row">
                                         <div class="col-lg-12 my-auto">
                                             <div class="table-responsive mt-5 tableover">
                                                 <table class="table table-bordered">
                                                     <thead class="text-white" style="background-color:var(--color1);">
                                                         <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO I</td>
+                                                            <td colspan="2">PLAN CURRICULAR</td>
+                                                            <!-- <td colspan="2">PRIMER MÓDULO</td> -->
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO I</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO II</td>
+                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">MICROSOTF OFFICE</td>
+                                                            <!-- <td class="text-white" style="background-color:var(--color2);">PRESENTACIONES EN POWER POINT, PPT, PREZZI.</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">TÉCNICAS CULINARIAS I</td>
-                                                            <td style="background-color: var(--color6);">TÉCNICAS CULINARIAS II</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">HISTORIA DE LA GASTRONOMÍA</td>
-                                                            <td style="background-color: var(--color6);">COMPRAS Y ALMACÉN</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA PERUANA I</td>
-                                                            <td style="background-color: var(--color6);">COCINA PERUANA II</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>WINDOWS:</b> Reconocimiento del computador (Hardware – Software). Dominie el sistema operativo Windows para la administración la información almacenada en los discos, transfiera y organice archivos, accede a programas, configure el sistema y administre sus usuarios.</li>
+                                                                    <li> <b>WORD:</b> Configure su documento, elabore bordes y sombreados, columnas, letra capital, viñetas, estilos, ecuaciones, tablas, tabulaciones, etc.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li> <b>EXCEL BASICO:</b>  Reconocimiento de un libro de Excel, columnas, filas, celdas, rangos, formateo de celdas y utilización de fórmulas básicas, etc.</li>
+                                                                    <li> <b>EXCEL INTERMEDIO:</b> Utilización de funciones de Excel, tablas dinámicas, subtotales, graficas, filtros, etc.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
-                                                    <thead class="text-white" style="background-color:var(--color1);">
-                                                        <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO II (PESCADOS Y MARISCOS)</td>
-                                                        </tr>
-                                                    </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO III</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO IV</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">PRESENTACIONES EN POWER POINT, PPT, PREZZI</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">SASTRERIA DAMAS (6 MESES)</td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA REGIONAL</td>
-                                                            <td style="background-color: var(--color6);">BUFFET Y TALLADOS</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li>Aprenda a crear rápidamente presentaciones dinámicas con una buena estética, utilizando multimedia, animaciones, etc.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li>Aprenda a crear rápidamente presentaciones dinámicas con una buena estética, utilizando multimedia, animaciones, etc.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">ETIQUETA</td>
-                                                            <td style="background-color: var(--color6);">COMPRAS Y ALMACÉN</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">PESCADOS Y MARISCOS</td>
-                                                            <td style="background-color: var(--color6);">COCINA LATINOAMERICANA</td>
-                                                        </tr>
-                                                    </tbody>
-                                                    <thead class="text-white" style="background-color:var(--color1);">
-                                                        <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO III (PASTELERÍA)</td>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO V</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO VI</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">PANADERÍA Y PASTELERÍA BÁSICA</td>
-                                                            <td style="background-color: var(--color6);">COCINA NATURISTA Y VEGETARIANA</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">BROMATOLOGÍA NUTRICIÓN Y DIETAS</td>
-                                                            <td style="background-color: var(--color6);">INGLÉS GASTRONÓMICO</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">TÉCNICAS DE BAR Y COCTELERÍA</td>
-                                                            <td style="background-color: var(--color6);">PANADERÍA Y PASTELERÍA FINA Y ARTESANAL</td>
-                                                        </tr>
-                                                    </tbody>
-                                                    <thead class="text-white" style="background-color:var(--color1);">
-                                                        <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO IV (COCINA INTERNACIONAL)</td>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO VII</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO CICLO VIII</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA NOVO-ANDINA</td>
-                                                            <td style="background-color: var(--color6);">COCINA EUROPEA</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">INGENIERÍA DE MENU</td>
-                                                            <td style="background-color: var(--color6);">COCINA ORIENTAL</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA EXÓTICA</td>
-                                                            <td style="background-color: var(--color6);">ORGANIZACIÓN DE EVENTOS <br>Y PROYECTO GASTRONÓMICO</td>
-                                                        </tr>
-                                                    </tbody>
 
+                                                    </tbody>
+                                                    <tbody>
+                                                        <tr style="text-align:center;background-color:white;">
+                                                            <td class="text-white" style="background-color:var(--color2);">LENCERIA (4 MESES)</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">LENCERIA DEL HOGAR (3 MESES)</td>
+                                                        </tr>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li>Confección de prendas interiores para Damas.</li>
+                                                                    <li>Confección de prendas interiores para Caballeros y Niños.</li>
+                                                                    <li>Confección de pijamas y batas.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li>Confección de lencería para el dormitorio.</li>
+                                                                    <li>Confección de lencería para cocina y comedor.</li>
+                                                                    <li>Confección de lencería para sala y el baño.</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
+
                 </div>
+
                 <div class="col-md-3 d-flex cursos">
                     <!-- <div class="line"></div> -->
                     <div>
@@ -932,8 +906,10 @@
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Cosmetología</a>
-                                        <p class="p-carrera">La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. </p>
+                                        <a href="#" class="card-title">Computación</a>
+                                        <p class="p-carrera">
+                                            Los cursos que forman parte del Área de computación permitirán al estudiante recibir una sólida formación básica para el manejo de la computadora y las aplicaciones de oficina desarrollando sus habilidades y capacidades que le permitirán desempeñarse como colaborador efectivo en los centros de informática de organizaciones productivas tanto públicas como privadas.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -945,7 +921,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Pastelería</a>
+                                        <a href="#" class="card-title">Diseño Gráfico</a>
                                         <p class="p-carrera">
                                             La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería.
                                         </p>
@@ -953,6 +929,37 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="card mb-3">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <a href="#" class="card-title">Ind. de Vestido</a>
+                                        <p class="p-carrera">
+                                            El curso de Industria del Vestido tiene la finalidad de satisfacer la demanda de personal calificado para diseñar, confeccionar, fabricar, e innovar prendas de vestir, mediante el desarrollo de habilidades en dibujo, selección de texturas, formas, colores; así como en la operación de equipos de la industria del vestido, que le permitan aportar y crear soluciones en el campo del diseño de modas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <a href="#" class="card-title">Barbería</a>
+                                        <p class="p-carrera">
+                                            La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

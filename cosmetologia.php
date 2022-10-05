@@ -294,7 +294,8 @@
             left: 0;
             right: 0;
             width: 100%;
-            height: 80.5%;
+            /* height: 80.5%; */
+            height: 85.5%;
             content: "";
             background-color: #000000;
             opacity: 0.46;
@@ -686,9 +687,9 @@
             <div class="row justify-content-between">
                 <div class="col-md-8 ">
                     <div id="apply-area" class="py-5">
-                        <img src="./assets/img/web/cosmetologia_portada_interna.jpg" alt="">
-                        <div class="course-apply-btn">
-                            <a href="#" class="default-btn">Postular</a>
+                        <img src="./assets/img/web/cosmetologia_portada_interna2.webp" alt="">
+                        <div class=" course-apply-btn">
+                            <a href="#" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
                     <div class="">
@@ -718,7 +719,7 @@
                                 <p class="mt-3 text-justify" style="color: var(--color4);">
                                     La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. Se trata de un cursado corto, de dos años (en algunos casos), en el cual se abordan diversas materias relacionadas a la anatomía del cuerpo humano y de la piel así como cuestiones netamente físicas, químicas y cosméticas. Los egresados de Cosmetología podrán desempeñarse en centros de estética, como asistentes de dermatólogos y de forma independiente realizando tratamientos faciales y corporales.
                                 </p>
-                                <img src="./assets/img/web/gastronomia2.jpg" alt="">
+                                <img src="./assets/img/web/cosmetologia2.webp" alt="">
                                 <br>
                                 <br>
                                 <div class="row">
@@ -731,9 +732,6 @@
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/certificado2.png" alt="">
                                             <span class="my-auto">&nbsp;Certificación a Nombre del Ministerio de Educación</span>
                                         </div>
-
-
-
                                     </div>
                                 </div>
                             </div>
@@ -824,34 +822,20 @@
                                                         <tr style="background-color:white;">
                                                             <td style="background-color: var(--color6); width: 50%;">
                                                                 <ul>
-                                                                    <li>Diagnóstico del cuero cabelludo y hebra capilar</li>
-                                                                    <li>Peeling capilar</li>
-                                                                    <li>Conocimiento de las ampollas capilares</li>
-                                                                    <li>Cauterización</li>
+                                                                    <li>Diagnóstico del cuero cabelludo y hebra capilar.</li>
+                                                                    <li>Peeling capilar.</li>
+                                                                    <li>Conocimiento de las ampollas capilares.</li>
+                                                                    <li>Cauterización.</li>
                                                                 </ul>
                                                             </td>
-                                                            <!-- <td style="background-color: var(--color6);">Diagnóstico del cuero cabelludo y hebra capilar</td> -->
-                                                            <!-- <td style="background-color: var(--color6);">Técnicas métodos de maquillaje</td> -->
                                                             <td style="background-color: var(--color6); width: 50%;">
                                                                 <ul>
-                                                                    <li>Técnicas métodos de maquillaje</li>
-                                                                    <li>Maquillaje natural</li>
-                                                                    <li>Maquillaje de día y de noche</li>
+                                                                    <li>Técnicas métodos de maquillaje.</li>
+                                                                    <li>Maquillaje natural.</li>
+                                                                    <li>Maquillaje de día y de noche.</li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
-                                                        <!-- <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Peeling capilar</td>
-                                                            <td style="background-color: var(--color6);">Maquillaje natural</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Conocimiento de las ampollas capilares</td>
-                                                            <td style="background-color: var(--color6);">Maquillaje de día y de noche</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Cauterización</td>
-                                                            <td style="background-color: var(--color6);"></td>
-                                                        </tr> -->
                                                     </tbody>
                                                     <!-- <thead class="text-white" style="background-color:var(--color1);">
                                                         <tr style="text-align:center;">
@@ -863,26 +847,26 @@
                                                             <td class="text-white" style="background-color:var(--color2);">ONDULACIÓN</td>
                                                             <td class="text-white" style="background-color:var(--color2);">FACIAL</td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Técnicas de ondulación básica.</td>
-                                                            <td style="background-color: var(--color6);">Limpieza facial básica profunda.</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Técnicas de ondulación básica.</li>
+                                                                    <li>Ondulación con roller, agapelles, otros.</li>
+                                                                    <li>Ondulación con variantes.</li>
+                                                                    <li>Ondulación cabello natural y teñido.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Limpieza facial básica profunda.</li>
+                                                                    <li>Limpieza anti-acné.</li>
+                                                                    <li>Tratamiento para alteraciones (acné, rosácea, seborreica).</li>
+                                                                    <li>Tratamiento naturales y químicos.</li>
+                                                                    <li>Tratamiento peeling superficial.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Ondulación con roller, agapelles, otros.</td>
-                                                            <td style="background-color: var(--color6);">Limpieza anti-acné.</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Ondulación con variantes</td>
-                                                            <td style="background-color: var(--color6);">Tratamiento para alteraciones (acné, rosácea, seborreica).</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Ondulación cabello natural y teñido</td>
-                                                            <td style="background-color: var(--color6);">Tratamiento naturales y químicos.</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);"></td>
-                                                            <td style="background-color: var(--color6);">Tratamiento peeling superficial.</td>
-                                                        </tr>
+
                                                     </tbody>
                                                     <!-- <thead class="text-white" style="background-color:var(--color1);">
                                                         <tr style="text-align:center;">
@@ -894,29 +878,25 @@
                                                             <td class="text-white" style="background-color:var(--color2);">TINTURA Y DECOLORACIÓN</td>
                                                             <td class="text-white" style="background-color:var(--color2);">DEPILACIÓN</td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Estudio del cabello</td>
-                                                            <td style="background-color: var(--color6);">Depilación rostro</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Técnicas de coloración.</td>
-                                                            <td style="background-color: var(--color6);">Depilación con hilo, crema y cera.</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Tintes en cabellos natural.</td>
-                                                            <td style="background-color: var(--color6);">Depilación con bandas</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Iluminación</td>
-                                                            <td style="background-color: var(--color6);">Aclaramiento de bellos del rostro, brazos y piernas</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Retoques y pre-retoques.</td>
-                                                            <td style="background-color: var(--color6);"></td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Tinte de canas.</td>
-                                                            <td style="background-color: var(--color6);"></td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Estudio del cabello.</li>
+                                                                    <li>Técnicas de coloración.</li>
+                                                                    <li>Tintes en cabellos natural.</li>
+                                                                    <li>Iluminación.</li>
+                                                                    <li>Retoques y pre-retoques.</li>
+                                                                    <li>Tinte de canas.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Depilación rostro.</li>
+                                                                    <li>Depilación con hilo, crema y cera.</li>
+                                                                    <li>Depilación con bandas.</li>
+                                                                    <li>Aclaramiento de bellos del rostro, brazos y piernas.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <!-- <thead class="text-white" style="background-color:var(--color1);">
@@ -929,29 +909,26 @@
                                                             <td class="text-white" style="background-color:var(--color2);">CORTE DE CABELLO</td>
                                                             <td class="text-white" style="background-color:var(--color2);">MANICURE</td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Estudio del rostro de acuerdo al corte.</td>
-                                                            <td style="background-color: var(--color6);">Manicure básica, spa exprés</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Cortes básicos con tijeras, navaja y máquina.</td>
-                                                            <td style="background-color: var(--color6);">Manicure francesa, brasilera</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Corte simétricos y asimétricos.</td>
-                                                            <td style="background-color: var(--color6);">Manicure parafina</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Corte en grados.</td>
-                                                            <td style="background-color: var(--color6);">Manicure anti edad</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Corte degrafilado.</td>
-                                                            <td style="background-color: var(--color6);">Manicure diseño</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Técnicas de acabados.</td>
-                                                            <td style="background-color: var(--color6);"></td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Estudio del rostro de acuerdo al corte.</li>
+                                                                    <li>Cortes básicos con tijeras, navaja y máquina.</li>
+                                                                    <li>Corte simétricos y asimétricos.</li>
+                                                                    <li>Corte en grados.</li>
+                                                                    <li>Corte degrafilado.</li>
+                                                                    <li>Técnicas de acabados.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Manicure básica, spa exprés.</li>
+                                                                    <li>Manicure francesa, brasilera.</li>
+                                                                    <li>Manicure parafina.</li>
+                                                                    <li>Manicure anti edad.</li>
+                                                                    <li>Manicure diseño.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <tbody>
@@ -959,43 +936,35 @@
                                                             <td class="text-white" style="background-color:var(--color2);">PEINADOS</td>
                                                             <td class="text-white" style="background-color:var(--color2);">PEDICURE</td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Trenzas.</td>
-                                                            <td style="background-color: var(--color6);">Pedicure básico</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Moños.</td>
-                                                            <td style="background-color: var(--color6);">Pedicure parafina</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Cepillados, ondas</td>
-                                                            <td style="background-color: var(--color6);">Tratamiento y limpieza de uñas</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Planchado Tenazas</td>
-                                                            <td style="background-color: var(--color6);">Tratamiento hiperqueratosis</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Técnica del Bruch</td>
-                                                            <td style="background-color: var(--color6);">Masajes relajantes</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);"></td>
-                                                            <td style="background-color: var(--color6);">Hidratación de los pies</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);"></td>
-                                                            <td style="background-color: var(--color6);">Colocación de uñas postizas</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Trenzas.</li>
+                                                                    <li>Moños.</li>
+                                                                    <li>Cepillados, ondas.</li>
+                                                                    <li>Planchado Tenazas.</li>
+                                                                    <li>Técnica del Bruch.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Pedicure básico.</li>
+                                                                    <li>Pedicure parafina.</li>
+                                                                    <li>Tratamiento y limpieza de uñas.</li>
+                                                                    <li>Tratamiento hiperqueratosis.</li>
+                                                                    <li>Masajes relajantes.</li>
+                                                                    <li>Hidratación de los pies.</li>
+                                                                    <li>Colocación de uñas postizas.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
-
                                                 </table>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="tab-pane fade" id="turno2" role="tabpanel" aria-labelledby="turno2-tab">
                                 <div class="container">
                                     <div class="row">
@@ -1012,17 +981,21 @@
                                                             <td colspan="2" class="text-white" style="background-color:var(--color2);">MÓDULO PROFESIONAL DE EXTENSIONES</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Tejidos de extensiones</td>
-                                                            <td style="background-color: var(--color6);">Colocación - Microrins</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Colocación - Cocidas</td>
-                                                            <td style="background-color: var(--color6);">Colocación - Ganchos</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Colocación - Keratina</td>
-                                                            <td style="background-color: var(--color6);">Pelucas</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li>Tejidos de extensiones.</li>
+                                                                    <li>Colocación - Cocidas.</li>
+                                                                    <li>Colocación - Keratina.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul>
+                                                                    <li>Colocación - Microrins.</li>
+                                                                    <li>Colocación - Ganchos.</li>
+                                                                    <li>Pelucas.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <!-- <thead class="text-white" style="background-color:var(--color1);">
@@ -1035,21 +1008,22 @@
                                                             <td colspan="2" class="text-white" style="background-color:var(--color2);">MÓDULO PROFESIONAL DE LACEADO</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">FACIAL</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Teoría y Técnica</td>
-                                                            <td style="background-color: var(--color6);">Laceado Japonés</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Cepillado y Planchado</td>
-                                                            <td style="background-color: var(--color6);">Laceado Americano</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Laceado Dual</td>
-                                                            <td style="background-color: var(--color6);">Laceado Keratina</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Laceado Brasilero</td>
-                                                            <td style="background-color: var(--color6);"></td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Teoría y Técnica.</li>
+                                                                    <li>Cepillado y Planchado.</li>
+                                                                    <li>Laceado Dual.</li>
+                                                                    <li>Laceado Brasilero.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Laceado Japonés.</li>
+                                                                    <li>Laceado Americano.</li>
+                                                                    <li>Laceado Keratina.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <!-- <thead class="text-white" style="background-color:var(--color1);">
@@ -1062,29 +1036,27 @@
                                                             <td colspan="2" class="text-white" style="background-color:var(--color2);">MÓDULO PROFESIONAL DE UÑAS POSTIZAS</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">DEPILACIÓN</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Tips</td>
-                                                            <td style="background-color: var(--color6);">Encapsulado Gel</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Acrílico</td>
-                                                            <td style="background-color: var(--color6);">Porcelana, 3D, Mano Alzada</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Gel</td>
-                                                            <td style="background-color: var(--color6);">Esculpidas en Gel</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Acrigel</td>
-                                                            <td style="background-color: var(--color6);">Esculpidas en Acrílico</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Encapsulado</td>
-                                                            <td style="background-color: var(--color6);">Marmoleado</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Acrílico</td>
-                                                            <td style="background-color: var(--color6);">Baby Boamer</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Tips</li>
+                                                                    <li>Acrílico</li>
+                                                                    <li>Gel</li>
+                                                                    <li>Acrigel</li>
+                                                                    <li>Encapsulado</li>
+                                                                    <li>Acrílico</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Encapsulado Gel.</li>
+                                                                    <li>Porcelana, 3D, Mano Alzada.</li>
+                                                                    <li>Esculpidas en Gel.</li>
+                                                                    <li>Esculpidas en Acrílico.</li>
+                                                                    <li>Marmoleado.</li>
+                                                                    <li>Baby Boamer.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <!-- <thead class="text-white" style="background-color:var(--color1);">
@@ -1097,33 +1069,29 @@
                                                             <td colspan="2" class="text-white" style="background-color:var(--color2);">MÓDULO PROFESIONAL DE MAQUILLAJE</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">MANICURE</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Teoría</td>
-                                                            <td style="background-color: var(--color6);">Diseño de cejas</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Camuflaje</td>
-                                                            <td style="background-color: var(--color6);">Maquillaje de 15 años</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Técnica en Color en Ojos y Labios</td>
-                                                            <td style="background-color: var(--color6);">Maquillaje de caballero</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Técnica en Porcelana</td>
-                                                            <td style="background-color: var(--color6);">Maquillaje de alta fantasía</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Maquillaje pasarela</td>
-                                                            <td style="background-color: var(--color6);">Caritas pintadas</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Maquillaje de Novia, Noche y Día</td>
-                                                            <td style="background-color: var(--color6);">Maquillaje cambio de género</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Maquillaje en piel juvenil y madura</td>
-                                                            <td style="background-color: var(--color6);">Caracterización de heridas</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Teoría.</li>
+                                                                    <li>Camuflaje.</li>
+                                                                    <li>Técnica en Color en Ojos y Labios.</li>
+                                                                    <li>Técnica en Porcelana.</li>
+                                                                    <li>Maquillaje pasarela.</li>
+                                                                    <li>Maquillaje de Novia, Noche y Día.</li>
+                                                                    <li>Maquillaje en piel juvenil y madura.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Diseño de cejas.</li>
+                                                                    <li>Maquillaje de 15 años.</li>
+                                                                    <li>Maquillaje de caballero.</li>
+                                                                    <li>Maquillaje de alta fantasía.</li>
+                                                                    <li>Caritas pintadas.</li>
+                                                                    <li>Maquillaje cambio de género.</li>
+                                                                    <li>Caracterización de heridas.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <tbody>
@@ -1131,17 +1099,21 @@
                                                             <td colspan="2" class="text-white" style="background-color:var(--color2);">MÓDULO PROFESIONAL DE PESTAÑAS Y CEJAS</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">PEDICURE</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Planchado de Cejas</td>
-                                                            <td style="background-color: var(--color6);">Pestañas de Tira</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Colocación de Pestañas 1 x 1</td>
-                                                            <td style="background-color: var(--color6);">Mechas Baby Ligthts</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Extensión de Pestañas</td>
-                                                            <td style="background-color: var(--color6);">Rizado y Tinturación de Pestañas</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Planchado de Cejas.</li>
+                                                                    <li>Colocación de Pestañas 1 x 1</li>
+                                                                    <li>Extensión de Pestañas.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Pestañas de Tira.</li>
+                                                                    <li>Mechas Baby Ligthts.</li>
+                                                                    <li>Rizado y Tinturación de Pestañas.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                     <tbody>
@@ -1149,21 +1121,23 @@
                                                             <td colspan="2" class="text-white" style="background-color:var(--color2);">MÓDULO PROFESIONAL DE TINTE</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">PEDICURE</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Teoría de las etapas de una decoloración.</td>
-                                                            <td style="background-color: var(--color6);">Decapage</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Mechas con Retoques</td>
-                                                            <td style="background-color: var(--color6);">Coloración en Fantasía</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Rayitos, Iluminación, Californianas</td>
-                                                            <td style="background-color: var(--color6);">Mechas Ombre</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">Splash Lights</td>
-                                                            <td style="background-color: var(--color6);">Mechas Balayage</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Teoría de las etapas de una decoloración.</li>
+                                                                    <li>Mechas con Retoques.</li>
+                                                                    <li>Rayitos, Iluminación, Californianas.</li>
+                                                                    <li>Splash Lights.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Decapage.</li>
+                                                                    <li>Coloración en Fantasía.</li>
+                                                                    <li>Mechas Ombre.</li>
+                                                                    <li>Mechas Balayage.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
 
@@ -1173,6 +1147,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
@@ -1188,12 +1163,12 @@
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_cosmetologia.jpg" alt="foto">
+                                    <img src="./assets/img/web/gastronomia_portada_interna.jpg" alt="foto">
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Cosmetología</a>
-                                        <p class="p-carrera">La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. </p>
+                                        <a href="#" class="card-title">Gastronomía</a>
+                                        <p class="p-carrera">Como alumno de la Carrera de Gastronomía recibirás una formación culinaria integral, con una visión empresarial sólida, brindándote las herramientas que te permitirán desarrollar habilidades y destrezas para alcanzar los estándares que exige el mercado laboral. </p>
                                     </div>
                                 </div>
                             </div>

@@ -34,9 +34,9 @@
         /* Estilos de portada interna */
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/portada_gastronomia.jpg');
+                url('./assets/img/web/pasteleria_portada_principal.jpg');
             background-size: 100%;
-            background-position: top;
+            background-position: center;
             /* background-attachment: fixed; */
 
             /* background-repeat: no-repeat; */
@@ -294,7 +294,8 @@
             left: 0;
             right: 0;
             width: 100%;
-            height: 80.5%;
+            /* height: 80.5%; */
+            height: 85.5%;
             content: "";
             background-color: #000000;
             opacity: 0.46;
@@ -686,8 +687,8 @@
             <div class="row justify-content-between">
                 <div class="col-md-8 ">
                     <div id="apply-area" class="py-5">
-                        <img src="./assets/img/web/gastronomia_portada_interna.jpg" alt="">
-                        <div class="course-apply-btn">
+                        <img src="./assets/img/web/portada_pasteleria.webp" alt="">
+                        <div class=" course-apply-btn">
                             <a href="#" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
@@ -711,88 +712,82 @@
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active " id="descripcion" role="tabpanel" aria-labelledby="descripcion-tab">
-                                <h1>CARRERA TÉCNICA DE GASTRONOMÍA</h1>
+                                <h1>PASTELERÍA, PANADERÍA Y REPOSTERÍA</h1>
                                 <p class="mt-3 text-justify" style="color: var(--color4);">
-                                    Como alumno de la Carrera de Gastronomía recibirás
-                                    una formación culinaria integral, con una visión
-                                    empresarial sólida, brindándote las herramientas que
-                                    te permitirán desarrollar habilidades y destrezas para
-                                    alcanzar los estándares que exige el mercado laboral.
+                                    La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería. Este estudio es una de las ramas que se pueden encontrar a la gastronomía.
                                 </p>
-                                <img src="./assets/img/web/gastronomia2.jpg" alt="">
+                                <img src="./assets/img/web/pasteleria2.jpg" alt="">
                                 <br>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg  d-flex justify-content-start">
                                         <div>
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/tiempo.png" alt="">
-                                            <span class="my-auto">&nbsp;Duracion: 2 años</span>
+                                            <span class="my-auto">&nbsp;Duracion: 1 año</span>
                                         </div>
                                         <div class="mx-5">
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/certificado2.png" alt="">
-                                            <span class="my-auto">&nbsp;Certificación a Nombre de la Nación</span>
+                                            <span class="my-auto">&nbsp;Certificación a Nombre del Ministerio de Educación</span>
                                         </div>
-
-
-
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade  " id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <p>Al Culminar la carrera podrás laborar en:</p>
+                                <!-- <p>La egresada en la carrera de PASTELERÍA estará en capacidad de desempeñarse como:</p> -->
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Hoteles.</p>
+                                    <p>Cuenta con un gran sentido de compromiso para asumir los retos que desee emprender.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Resorts.</p>
+                                    <p>Formado para trabajar en equipo y ejerciendo su liderazgo.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Bares.</p>
+                                    <p>Se destaca por su capacidad y dominio en los procesos de producción y su conocimiento en el manejo de insumos y de maquinarias.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Negocioso de catering.</p>
+                                    <p>Su creatividad para formular recetas aplicando estrictos controles de calidad y BPM.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Cruceros.</p>
+                                    <p>Puede desempeñarse en la parte de producción como de planta.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Clínicas.</p>
+                                    <p>Posee valores de respeto, responsabilidad y puntualidad.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Casinos.</p>
+                                    <p>Capacitado con las últimas tendencias en panificación y pastelería con la más alta tecnología a nivel mundial.</p>
                                 </div>
-                                <div class="d-flex">
+                                <br><br>
+                                <h4>Campo Laboral</h4>
+                                <ul>
+                                    <li>Restaurantes, hoteles y cruceros.</li>
+                                    <li>Empresas de alimentación industrial y colectiva.</li>
+                                </ul>
+                                <!-- <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Empresas del rubro alimentos y bebidas.</p>
-                                </div>
-                                <div class="d-flex">
-                                    <span><i class="fas fa-check"></i></span>
-                                    <p>Gestión de tu propia empresa.</p>
-                                </div>
+                                    <p>Restaurantes, hoteles y cruceros.</p>
+                                </div> -->
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 9-12 pm</p>
+                                    <p>Martes y jueves 6-9 pm</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 3-6 pm</p>
+                                    <p>Sabados 9-1 pm</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 6-9 pm</p>
+                                    <p>Domingos 9-1 pm</p>
                                 </div>
                             </div>
-
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
@@ -807,117 +802,128 @@
                                     <p>1 mica A4</p>
                                 </div>
                             </div>
-
                             <div class="tab-pane fade" id="turno" role="tabpanel" aria-labelledby="turno-tab">
                                 <div class="container">
-
                                     <div class="row">
                                         <div class="col-lg-12 my-auto">
                                             <div class="table-responsive mt-5 tableover">
                                                 <table class="table table-bordered">
                                                     <thead class="text-white" style="background-color:var(--color1);">
                                                         <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO I</td>
+                                                            <td colspan="2">PLAN CURRICULAR BÁSICO</td>
+                                                            <!-- <td colspan="2">PRIMER MÓDULO</td> -->
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO I</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO II</td>
+                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">PRIMER MÓDULO</td>
+                                                            <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">TÉCNICAS CULINARIAS I</td>
-                                                            <td style="background-color: var(--color6);">TÉCNICAS CULINARIAS II</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">HISTORIA DE LA GASTRONOMÍA</td>
-                                                            <td style="background-color: var(--color6);">COMPRAS Y ALMACÉN</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA PERUANA I</td>
-                                                            <td style="background-color: var(--color6);">COCINA PERUANA II</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>CLASE 1:</b> Queque Marmoleado, Queque Inglés y Salsa de acompañamiento.</li>
+                                                                    <li> <b>CLASE 2:</b> Pye de Limón y Pye de Manzana.</li>
+                                                                    <li> <b>CLASE 3:</b> Pastel de Acelga y Tartaletas de Frutas.</li>
+                                                                    <li> <b>CLASE 4:</b> Torta de Chocolate y Brownies.</li>
+                                                                    <li> <b>CLASE 5:</b> Torta Tres Leches y Pionono.</li>
+                                                                    <li> <b>CLASE 6:</b> Donas y Churros.</li>
+                                                                    <li> <b>CLASE 7:</b> Soufflé frio - papillon.</li>
+                                                                    <li> <b>CLASE 8:</b> Examen Parcial.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>CLASE 9:</b> Masa Hojaldre y Aplicaciones.</li>
+                                                                    <li> <b>CLASE 10:</b> Tarta Linz y Torta Helada.</li>
+                                                                    <li> <b>CLASE 11:</b> Pye de Pecanas y Merengado de Chirimoya.</li>
+                                                                    <li> <b>CLASE 12:</b> Empanada de Carne y Quiche.</li>
+                                                                    <li> <b>CLASE 13:</b> Rosca de Reyes y Rollitos de Canela.</li>
+                                                                    <li> <b>CLASE 14:</b> Helado de Lúcuma, Helado de Chocolate y Tulipa.</li>
+                                                                    <li> <b>CLASE 15:</b> Elaboración de costos de Pastelería.</li>
+                                                                    <li> <b>CLASE 16:</b> Examen Final.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
-                                                    <thead class="text-white" style="background-color:var(--color1);">
-                                                        <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO II (PESCADOS Y MARISCOS)</td>
-                                                        </tr>
-                                                    </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO III</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO IV</td>
+                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">SEGUNDO MÓDULO</td>
+                                                            <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA REGIONAL</td>
-                                                            <td style="background-color: var(--color6);">BUFFET Y TALLADOS</td>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>CLASE 1:</b> Mousse de Tres Chocolates y Torta de Moka.</li>
+                                                                    <li> <b>CLASE 2:</b> Fraisier y Torta Sacher.</li>
+                                                                    <li> <b>CLASE 3:</b> Selva Negra y Tiramisú.</li>
+                                                                    <li> <b>CLASE 4:</b> Creme Brulé y TarteTatin con masa hojaldre.</li>
+                                                                    <li> <b>CLASE 5:</b> Saint Honore y Paris Brest con hojaldre.</li>
+                                                                    <li> <b>CLASE 6:</b> Cheesecake y Bruselina.</li>
+                                                                    <li> <b>CLASE 7:</b> Torta Charlotte y Torta Opera.</li>
+                                                                    <li> <b>CLASE 8:</b> Examen Parcial.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>CLASE 9:</b> Bavarois de Maracuya y Urubamba.</li>
+                                                                    <li> <b>CLASE 10:</b> Chocolatería Fina.</li>
+                                                                    <li> <b>CLASE 11:</b> Strudel de Manzana y Vol Au Vent con Fricassé.</li>
+                                                                    <li> <b>CLASE 12:</b> Vesubio y Torta Pomme.</li>
+                                                                    <li> <b>CLASE 13:</b> Peras al Sabayón y Zucotto.</li>
+                                                                    <li> <b>CLASE 14:</b> Masa Elástica y Decoración en Maqueta.</li>
+                                                                    <li> <b>CLASE 15:</b> Festival de Cupcakes.</li>
+                                                                    <li> <b>CLASE 16:</b> Examen Final.</li>
+                                                                </ul>
+                                                            </td>
                                                         </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">ETIQUETA</td>
-                                                            <td style="background-color: var(--color6);">COMPRAS Y ALMACÉN</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">PESCADOS Y MARISCOS</td>
-                                                            <td style="background-color: var(--color6);">COCINA LATINOAMERICANA</td>
-                                                        </tr>
-                                                    </tbody>
-                                                    <thead class="text-white" style="background-color:var(--color1);">
-                                                        <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO III (PASTELERÍA)</td>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO V</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO VI</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">PANADERÍA Y PASTELERÍA BÁSICA</td>
-                                                            <td style="background-color: var(--color6);">COCINA NATURISTA Y VEGETARIANA</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">BROMATOLOGÍA NUTRICIÓN Y DIETAS</td>
-                                                            <td style="background-color: var(--color6);">INGLÉS GASTRONÓMICO</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">TÉCNICAS DE BAR Y COCTELERÍA</td>
-                                                            <td style="background-color: var(--color6);">PANADERÍA Y PASTELERÍA FINA Y ARTESANAL</td>
-                                                        </tr>
-                                                    </tbody>
-                                                    <thead class="text-white" style="background-color:var(--color1);">
-                                                        <tr style="text-align:center;">
-                                                            <td colspan="2">MODULO IV (COCINA INTERNACIONAL)</td>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO VII</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO CICLO VIII</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA NOVO-ANDINA</td>
-                                                            <td style="background-color: var(--color6);">COCINA EUROPEA</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">INGENIERÍA DE MENU</td>
-                                                            <td style="background-color: var(--color6);">COCINA ORIENTAL</td>
-                                                        </tr>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td style="background-color: var(--color6);">COCINA EXÓTICA</td>
-                                                            <td style="background-color: var(--color6);">ORGANIZACIÓN DE EVENTOS <br>Y PROYECTO GASTRONÓMICO</td>
-                                                        </tr>
-                                                    </tbody>
 
+                                                    </tbody>
+                                                    <tbody>
+                                                        <tr style="text-align:center;background-color:white;">
+                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">TERCER MÓDULO</td>
+                                                            <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
+                                                        </tr>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>CLASE 1:</b> Empanadas, boda, Vainilla y chocolate.</li>
+                                                                    <li> <b>CLASE 2:</b> Empanadas de carne pollo.</li>
+                                                                    <li> <b>CLASE 3:</b> Masa Hojaldre, piono, pay de manzana, cono relleno, orejitas.</li>
+                                                                    <li> <b>CLASE 4:</b> Panes (karamandunka, francés, yema, integral).</li>
+                                                                    <li> <b>CLASE 5:</b> Festibal de kekes: Naranja, Chocolate, Novia, Indu y Zanahoria.</li>
+                                                                    <li> <b>CLASE 6:</b> Decoración de Tortas.</li>
+                                                                    <li> <b>CLASE 7:</b> Turrones.</li>
+                                                                    <li> <b>CLASE 8:</b> Evaluación</li>
+                                                                    <li> <b>CLASE 9:</b> Pay de Manzana, Limón y Fresa.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                                <ul style="list-style: none;">
+                                                                    <li> <b>CLASE 10:</b> Pastelería Fina: Brucelinas, Torta Ganache, Torta Bombom.</li>
+                                                                    <li> <b>CLASE 11:</b> Biscocho, pan de maíz e integral.</li>
+                                                                    <li> <b>CLASE 12:</b> Evaluación.</li>
+                                                                    <li> <b>CLASE 13:</b> Postres en Vasos Chiskey maracuyá, Suspiro y tartaleta.</li>
+                                                                    <li> <b>CLASE 14:</b> Panes (Pitipan, Chabata y Enrollado de cebolla).</li>
+                                                                    <li> <b>CLASE 15:</b> Escultura de Chantilly: Perrito, Palomita, Cisne.</li>
+                                                                    <li> <b>CLASE 16:</b> Chocolatería.</li>
+                                                                    <li> <b>CLASE 17:</b> Bocaditos (Alitas a la brouche, minicausitas).</li>
+                                                                    <li> <b>CLASE 18:</b> Examen Final.</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
+
                 </div>
+
                 <div class="col-md-3 d-flex cursos">
                     <!-- <div class="line"></div> -->
                     <div>

@@ -103,9 +103,9 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="cosmetologia.php">Cosmetología</a></li>
                             <li><a class="dropdown-item" href="./gastronomia.php">Gastronomía</a></li>
-                            <li><a class="dropdown-item" href="#">Pastelería</a></li>
-                            <li><a class="dropdown-item" href="#">Panadería</a></li>
-                            <li><a class="dropdown-item" href="#">Repostería</a></li>
+                            <li><a class="dropdown-item" href="pasteleria.php">Pastelería</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Panadería</a></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Repostería</a></li> -->
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -113,9 +113,9 @@
                             Cursos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Computación</a></li>
+                            <li><a class="dropdown-item" href="computacion.php">Computación</a></li>
                             <li><a class="dropdown-item" href="#">Diseño Gráfico</a></li>
-                            <li><a class="dropdown-item" href="#">Ind del Vestido</a></li>
+                            <li><a class="dropdown-item" href="vestido.php">Ind del Vestido</a></li>
                             <li><a class="dropdown-item" href="#">Barbería</a></li>
                         </ul>
                     </li>
