@@ -5,184 +5,649 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/icons/escudo.png" type="image/x-icon">
+    <meta name="description" content="#">
+    <link rel="shortcut icon" href="./assets/img/icons/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
-    <title>CONSULTORA SISTERRA</title>
-
+    <title>SISTEC</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <style>
-        #banner {
-            background-image: url('./assets/img/web/banerBG.jpg');
+        #section-plataform {
+            margin-top: -50px;
+            z-index: 99;
+            position: relative;
         }
 
-        #banner .text {
+
+
+        #slider img {
+            /* height: 720px; */
+            object-fit: cover;
+            height: 100vh;
+        }
+
+        /* Estilos de portada interna */
+        #portada {
+            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                url('./assets/img/web/portada_gastronomia.jpg');
+            background-size: 100%;
+            background-position: top;
+            /* background-attachment: fixed; */
+
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+            /* mix-blend-mode: multiply; */
+        }
+
+        #portada h2 {
+            font-size: 48px;
+            color: var(--color3);
+            margin-top: 10rem;
+
+        }
+
+        #portada p {
+
+            color: var(--color3);
+            margin-bottom: 10rem;
+
+        }
+
+        #ruta {
+            background-color: var(--color1);
+        }
+
+        #ruta a {
+            font-size: 18px;
+            color: var(--color3);
+        }
+
+        /* Estilos de seccion plataform */
+        #row-section-plataform {
+
+            padding: 0px 40px 0px 10px;
+        }
+
+        #row-section-plataform p,
+        h5 {
+
             color: white;
-            padding: 4rem 0 4rem 0;
         }
 
-        /* #banner .text h1 {
-            font-size: 52px;
+        #row-section-plataform>.row {
+            height: 100%;
+            background-color: var(--color1);
+            padding: 30px 15px 20px;
+        }
+
+        #row-section-plataform>.row>.col-lg-9 {
+            padding: 0px 0px 0px 30px;
+        }
+
+        #row-section-plataform:hover img {
+            -webkit-animation-name: temblor;
+            animation-name: temblor;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+        }
+
+        @keyframes temblor {
+            0% {
+                -webkit-transform: translate(0px, 0px);
+            }
+
+            10% {
+                -webkit-transform: translate(10px, 0px);
+            }
+
+            20% {
+                -webkit-transform: translate(0px, 0px);
+            }
+
+            30% {
+                -webkit-transform: translate(10px, 0px);
+            }
+
+            40% {
+                -webkit-transform: translate(0px, 0px);
+            }
+
+            50% {
+                -webkit-transform: translate(10px, 0px);
+            }
+
+            60% {
+                -webkit-transform: translate(0px, 0px);
+            }
+
+            70% {
+                -webkit-transform: translate(10px, 0px);
+            }
+
+            80% {
+                -webkit-transform: translate(0px, 0px);
+            }
+
+            90% {
+                -webkit-transform: translate(10px, 0px);
+            }
+
+            100% {
+                -webkit-transform: translate(0px, 0px);
+            }
+        }
+
+        /* Estilos de boton */
+        .default-btn {
+            background-color: var(--color2);
+            color: #fff;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 21px 40px 21px;
+            text-align: center;
+            text-transform: uppercase;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            line-height: 1;
+            letter-spacing: 0.5px;
+            border-radius: 50px;
+        }
+
+        .default-btn:hover {
+            background-color: var(--color1);
+            color: #fff;
+        }
+
+        .default-btn2 {
+            background-color: var(--color2);
+            color: #fff;
+            display: inline-block;
+
             font-weight: bold;
             text-align: center;
-        } */
-
-        .ml10 {
-            position: relative;
-            font-weight: 900;
-            font-size: 2rem;
-            text-align: center;
+            text-transform: uppercase;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            line-height: 1;
+            letter-spacing: 0.5px;
+            border-radius: 0 50px 51px 0;
+            font-size: 14px;
+            padding: 15px 40px 15px;
         }
 
-        .ml10 .text-wrapper {
-            position: relative;
-            display: inline-block;
-            padding-top: 0.2em;
-            padding-right: 0.05em;
-            padding-bottom: 0.1em;
-            overflow: hidden;
+        .default-btn2:hover {
+            background-color: var(--color1);
+            color: #fff;
         }
 
-        .ml10 .letter {
-            display: inline-block;
-            line-height: 1em;
-            transform-origin: 0 0;
+        /* Estilos de los titulo */
+        #titulo {
+            display: flex;
+            justify-content: start;
         }
 
+        #parte1 {
+            font-size: 48px;
+            color: var(--color1);
+        }
+
+        #parte2 {
+            font-size: 48px;
+
+        }
+
+        /* Estilos de la seccion nosotros */
         #nosotros {
-            padding-top: 4rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
         }
 
         #nosotros p {
             text-align: justify;
+        }
+
+        /* Estilos de cursos */
+
+        #cursos .card .news {
+            position: absolute;
+            top: 0.5px;
+            left: -0.5px;
+            padding: 4px 12px;
+            background-color: var(--color1);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            transform: translateY(-5%);
+
+        }
+
+        #cursos .card {
+            border: 0px;
+            border-radius: 0px;
+
+        }
+
+        #cursos div.card img {
+            transition: .3s;
+        }
+
+        #cursos div.card:hover img {
+            transform: scale(1.06);
+        }
+
+        #cursos div.card:hover .card-footer {
+            display: block;
+        }
+
+        #cursos .card .detalle {
+
+            text-overflow: ellipsis;
+
+            display: -webkit-box;
+
+            -webkit-line-clamp: 2;
+
+            -webkit-box-orient: vertical;
+
+            overflow: hidden;
+
+            text-align: justify;
+
+            font-size: 17px;
+
+            color: #747474;
+
             line-height: 1.6;
+
         }
 
-        #nosotros img {
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
+        #cursos .card-footer {
+            display: none;
+            padding: 0px;
         }
 
-        #valores .item {
-            display: flex;
-            justify-content: center;
-            /* align-items: center; */
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        #valores .item img {
-            height: 100px;
-            width: 100px;
-        }
-
-        #valores .item .title {
-            color: var(--color1);
-            text-transform: uppercase;
-            font-size: 22px;
-        }
-
-        #valores .item .info {
-            margin-left: 2rem;
-            text-align: justify;
-        }
-
-        #valores .item .info p {
-            text-align: justify;
+        #cursos .card-footer span {
+            color: var(--color5);
         }
 
 
-        /* Estilo de Lista */
-        #perfiles .timeline {
-            list-style-type: none;
+        #cursos img {
+            object-fit: cover;
+        }
+
+        #apply-area {
             position: relative;
         }
 
-        #perfiles .timeline:before {
-            content: ' ';
-            background: var(--color2);
-            display: inline-block;
+        #apply-area img {
+            width: 100%;
+        }
+
+        #apply-area:before {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 80.5%;
+            content: "";
+            background-color: #000000;
+            opacity: 0.46;
+        }
+
+        #apply-area:after {
+            border: 5px solid #534741;
             position: absolute;
             left: 30px;
-            width: 2px;
-            height: 100%;
-            z-index: 400;
+            top: 70px;
+            right: 30px;
+            bottom: 70px;
+            content: "";
+            border-radius: 10px;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            z-index: 1;
         }
 
-        #perfiles .timeline>li {
-            margin: 14px 0;
-            padding-left: 20px;
-        }
-
-        #perfiles .timeline>li:before {
-            content: ' ';
-            background: white;
-            display: inline-block;
+        #apply-area .course-apply-btn {
             position: absolute;
-            border-radius: 50%;
-            border: 4px solid var(--color3);
-            left: 15px;
-            width: 32px;
-            height: 32px;
-            z-index: 400;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+            z-index: 9;
+        }
+
+        #apply-area .course-apply-btn a.default-btn {
+            padding: 15px 40px 15px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        #apply-area:hover:after {
+            left: 20px;
+            top: 55px;
+            right: 20px;
+            bottom: 55px;
+        }
+
+        /* Estilos de logros */
+
+        #logros {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        /* Estilo para las carreras */
+        .indicador {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--color6);
+            color: var(--color5);
+        }
+
+        .indicador a {
+            color: var(--color5);
+            margin-right: 1rem;
+            font-size: 13px;
+        }
+
+        .indicador .inicio:hover {
+            color: var(--color1);
+        }
+
+        #carrera h1 {
+
+            text-transform: uppercase;
+        }
+
+        #carrera .card img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+            /* max-height: 600px; */
+            /* margin-bottom: 3rem; */
         }
 
 
-        #politicas .comments {
-            /* margin: 100px; */
+
+        #carrera img {
             width: 100%;
-            border-left: solid 2px var(--color1);
-            padding: 0px 20px 0px 20px;
+            height: 100%;
+            object-fit: cover;
         }
 
-        #politicas .comments p {
-            background-color: #fff;
-            padding: 10px;
-            font-size: 16px;
-            border: solid 1px var(--color6);
-            line-height: 1.7;
+        #img-icono {
+            height: 40px !important;
+            width: 40px !important;
+        }
+
+        #carrera .nav-tabs .nav-item .nav-link span {
+            margin-left: .6rem;
+        }
+
+        #carrera .tab-content .tab-pane i {
+            margin-right: .5rem;
+            color: var(--color1);
+        }
+
+        #carrera .tab-content .tab-pane p {
+            text-align: justify;
+            color: var(--color4);
+        }
+
+        #carrera .nav-tabs .nav-item.show .nav-link i,
+        #carrera .nav-tabs .nav-link.active i {
+            color: red;
+        }
+
+        #carrera .tab-pane {
+            padding: 3rem 1rem;
+        }
+
+        #carrera .nav-item {
+            border: transparent;
+            border-bottom: 0;
+            background: transparent;
+            margin: 0 .2rem;
+        }
+
+        #carrera .nav-tabs .nav-link:hover {
+            border-color: transparent;
+        }
+
+        /* #carrera .nav-tabs .nav-link:focus,
+        #carrera .nav-tabs .nav-link:hover {
+            border-top: 2px solid var(--color1);
+            isolation: inherit;
+        } */
+        #carrera .nav-tabs {
+            border-bottom: transparent;
+        }
+
+        #carrera .nav-tabs .nav-item.show .nav-link,
+        #carrera .nav-tabs .nav-link.active {
+            color: var(--color1);
+            /* border-top: 4px solid var(--color1); */
+            text-decoration: line-through;
+            background-color: transparent;
+            border-color: transparent;
+
+        }
+
+        #carrera .nav-tabs .nav-link {
+            color: var(--color2);
+            background: transparent;
+            border-radius: 0;
+        }
+
+        #carrera .card {
+            border: 0;
+            /* margin: 1rem 0; */
+        }
+
+        #carrera .cursos {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        #carrera .cursos a {
+            color: var(--color2);
+        }
+
+        #carrera .cursos a:hover {
+            color: var(--color1);
+        }
+
+        #carrera .p-carrera {
+
+            text-overflow: ellipsis;
+
+            display: -webkit-box;
+
+            -webkit-line-clamp: 3;
+
+            -webkit-box-orient: vertical;
+
+            overflow: hidden;
+
+            font-family: 'Roboto', sans-serif;
+
+
+        }
+
+        .card-title {
+            font-family: 'Roboto', sans-serif;
+            color: var(--color1) !important;
+            font-size: 19px;
+            /*  display: flex;
+            align-items: center;  */
+
+        }
+
+        .line {
+            position: relative;
+            height: 100%;
+            width: 1px;
+            background: #e5e5e5;
+            margin-right: 1rem;
+        }
+
+        .line::after {
+            position: absolute;
+            content: '';
+            right: -1px;
+            /* left: 40%; */
+            top: 1px;
+            height: 40px;
+            width: 3px;
+            background: var(--color1);
+        }
+
+        .mV {
+            padding: 0 3rem;
+        }
+
+        figure {
+            margin: 0;
             position: relative;
         }
 
-        #politicas p::before {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
+        figure img {
+            max-width: 100%;
             display: block;
-            border: 3px solid #ECB338;
-            border-radius: 50%;
-            background-color: #fff;
-            top: 10px;
-            left: -32px;
+            position: relative;
         }
 
-        #politicas p::after {
-            content: '';
+        figcaption {
             position: absolute;
-            border: solid 8px;
-            border-color: transparent var(--color1) transparent transparent;
-            top: 10px;
-            left: -17px;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            /* background: #2c3f52; */
+            background: var(--color2);
+            /* color: var(--color1); */
+            color: var(--color7);
         }
 
-        #politicas .line {
-            background-color: #DDDDDD;
-            height: 2px;
+        figcaption h3 {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        /* figcaption span:before {
+            content: 'by ';
+        } */
+
+        figcaption a {
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 2px;
+            display: inline-block;
+            background: #ed4e6e;
+            color: #fff;
+        }
+
+        figcaption {
+            height: 100%;
             width: 100%;
-            margin-top: 1rem;
+            opacity: 0;
+            text-align: center;
+            backface-visibility: hidden;
+            transition: transform 0.3s, opacity 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        figure:hover figcaption,
+        figure.cs-hover figcaption {
+            opacity: 1;
+            transform: translate(15px, 15px);
+        }
+
+        /* figcaption h3 {
+            margin-top: 70px;
+        } */
+
+        figcaption span {
+            display: block;
+            font-size: 16px;
+        }
+
+        #img-beneficios {
+            transition: transform .9s;
+        }
+
+        #img-beneficios:hover {
+            transform: scale(1.1);
+        }
+
+        /* Estilos para animacion de contador de datos importantes */
+        .contador_cantidad {
+            color: var(--color2);
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        #contadorparrafo {
+            text-align: center;
+            font-size: .9rem;
+            color: var(--color5);
+        }
+
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .ocultar {
+            opacity: 0;
+        }
+
+        .animar {
+            animation: aparecer 1.3s;
         }
 
         @media (max-width: 500px) {
-            .ml10 {
-                font-size: 1.8rem;
+            #slider img {
+                height: 100%;
             }
+
+
+
+            #row-section-plataform {
+                padding-top: 50px;
+                padding-right: 12px;
+            }
+
+            #row-section-plataform p,
+            h5 {
+                text-align: center;
+            }
+
+            #row-section-plataform>.row {
+                padding: 20px;
+            }
+
+            #row-section-plataform>.row>.col-lg-9 {
+                padding-top: 10px;
+                padding: 0px;
+            }
+
         }
     </style>
 
@@ -192,176 +657,137 @@
     <!-- header -->
     <?php include_once './includes/header.php'; ?>
 
-
-    <section id="banner">
+    <section id="portada">
         <div class="container">
             <div class="row">
-                <div class="col text">
-                    <h1 class="ml10">
-                        <span class="text-wrapper">
-                            <span class="letters">NOSOTROS</span>
-                        </span>
-                    </h1>
+                <div class="col-lg-12">
+                    <h2>NOSOTROS</h2>
+                    <p>Somos una Institución de Formación Técnica, ubicada en el distrito de<br>
+                        San Juan de Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa<br>
+                        Local 01 (UGEL 01) del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ruta">
+        <div class="container py-2">
+            <div class="row d-flex justify-content-">
+                <div class="col-lg">
+                    <a href="./index.php">Inicio</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="nosotros">
-        <div class="container">
-            <div class="row justify-content-around align-items-center">
-                <div class="col-lg-6">
-                    <p>
-                        SISTERRA es una empresa fundada a inicios del año 2022 cuyo objeto es brindar
-                        servicios de educación, consultoría y asesoría en Gestión del Riesgo de Desastres,
-                        Seguridad y Defensa Nacional y Sistemas de Información Geográfica.
-                    </p>
-                    <p>
-                        SISTERRA se encuentra conformado por un equipo multidisciplinario de profesionales
-                        altamente capacitados en sus campos de acción y con una amplia experiencia, lo
-                        cual permite brindar servicios de calidad vistos desde diversas perspectivas que
-                        permiten una mejor solución a los problemas planteados.
-                    </p>
-                    <p style="margin-bottom: 0;">
-                        Tenemos como objetivo principal cooperar en la reducción y minimización de
-                        los efectos de los riesgos de desastres, originados por fenómenos de origen natural e
-                        inducidos por la acción humana, que se manifiestan en el territorio
-                        peruano, mediante una correcta prevención, reducción, preparación y respuesta.
-                    </p>
-                </div>
-
-                <div class="col-lg-5 d-flex justify-content-center align-items-center mt-lg-0 mt-md-4 mt-4">
-                    <img class="shadow" src="./assets/img/web/nosotrosText.jpg">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <br><br>
-
-    <div class="container my-5" id="valores" data-aos="fade-up" data-aos-duration="1500">
-        <div class="row my-5">
-
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="item">
-                    <img src="./assets/img/icons/responsabilidad.png" alt="">
-                    <div class="info">
-                        <h4 class="title">Responsabilidad</h4>
-                        <p>Estamos comprometidos con nuestros clientes, sociedad y medio ambiente en aportar y construir un país sostenible.</p>
+    <section class="py-5">
+        <div class="container py-1">
+            <div class="row d-flex justify-content-around">
+                <div class="col-lg-5 my-auto">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div style="width: 60px;height: 60px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: var(--color5);font-size:29px;"><a href="" style="color:var(--color1);"><i class="fas fa-gem" style="margin-top:19px;margin-left:13px;"></i></a></div>
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="text-start" style="color:black;">Misión</h2>
+                            
+                        </div>
                     </div>
-                </div>
-            </div>
+                    <br>
+                    <p>Formar Técnicos Emprendedores íntegros y competentes brindando una educación técnica de calidad que contribuya al desarrollo económico y ambiental del país.</p>
+                    <br>
+                   
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div style="width: 60px;height: 60px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: var(--color5);font-size:29px;"><a href="" style="color:var(--color1);"><i class="fas fa-bullseye-arrow" style="margin-top:14px;margin-left:13px;font-size:35px;"></i></a></div>
 
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="item">
-                    <img src="./assets/img/icons/puntualidad.png" alt="">
-                    <div class="info">
-                        <h4 class="title">Puntualidad</h4>
-                        <p>Entendemos que el tiempo es el valor más importante, por ello queremos que nuestros servicios sean en el tiempo adecuado y oportuno. </p>
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="text-start" style="color:black;">Visión</h2>
+                            
+                        </div>
                     </div>
+                    <br>
+                    <p>Ser una de las mejores instituciones líderes en educación técnica en el Perú con alcance a nivel nacional.</p>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="item">
-                    <img src="./assets/img/icons/calidad.png" alt="">
-                    <div class="info">
-                        <h4 class="title">Calidad</h4>
-                        <p>Trabajamos constantemente en la calidad de nuestros servicios prestados, ejerciendo medidas de seguimiento y control que garanticen mejores resultados.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="item">
-                    <img src="./assets/img/icons/excelencia.png">
-                    <div class=" info">
-                        <h4 class="title">Excelencia</h4>
-                        <p>Nuestro objetivo es proveer servicios profesionales y consultorías de alta calidad que a su vez sean precisos, apropiados y oportunos.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="item">
-                    <img src="./assets/img/icons/integridad.png" alt="">
-                    <div class="info">
-                        <h4 class="title">Integridad</h4>
-                        <p>Estamos comprometidos a conducir nuestra labor en un entorno social transparente, honesta y ética, implicando así la confianza entre los integrantes de nuestro equipo y nuestros clientes.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="item">
-                    <img src="./assets/img/icons/innovacion.png" alt="">
-                    <div class="info">
-                        <h4 class="title">Innovación</h4>
-                        <p>Nuestra política es ofrecer servicios de calidad a través de soluciones innovadoras, de manera dinámica y pragmática.</p>
-                    </div>
+                <div class="col-lg-6 ">
+                    <center><img src="./assets/img/web/nosotros1.png" width="50%" height="600px" alt=""></center>
                 </div>
             </div>
 
         </div>
-    </div>
-
-    <br><br>
+    </section>
 
 
-    <div class="container" id="politicas">
-        <h2 style="color: var(--color1);">NUESTRAS POLITICAS</h2>
-        <div class="line"></div>
-        <div class="row mt-5">
-            <div class="col-md-7">
-                <div class="comments">
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Brindar a sus clientes los productos o servicios de calidad.</p>
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Aportar soluciones a las necesidades de las entidades públicas, privadas y sociedad civil, como parte de los resultados finales de la empresa.</p>
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Brindar apoyo de asesorías y capacitaciones a las entidades públicas que no cuenten con sus gerencias o direcciones de Gestión del Riesgo de Desastres. </p>
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Proporcionar a su equipo de estand de profesionales un ambiente agradable, seguro y divertido como parte de estímulo que les permita llevar a cabo una buena ejecución de sus labores. </p>
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Facilitar cursos de capacitaciones que formen parte de un proceso obligatorio para los nuevos integrantes del equipo Sisterra.</p>
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Formar nuevos trabajadores de forma directa e indirecta para el desarrollo óptimo empresarial.</p>
-                    <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Ser flexibles y adaptarnos a la “nueva normalidad”.</p>
-                </div>
-            </div>
-            <div class="col-md-5 d-flex justify-content-center align-items-center">
-                <img src="./assets/img/web/poli2.png" width="100%" alt="">
-            </div>
-        </div>
-    </div>
 
-    <br><br>
+
+
+
+
 
     <!-- footer -->
     <?php include_once './includes/footer.php'; ?>
 
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-    </script>
+        addEventListener('DOMContentLoaded', () => {
+            const contadores = document.querySelectorAll('.contador_cantidad')
+            const velocidad = 10000000000
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script>
-        // Wrap every letter in a span
-        var textWrapper = document.querySelector('.ml10 .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+            const animarContadores = () => {
+                for (const contador of contadores) {
+                    const actualizar_contador = () => {
+                        let cantidad_maxima = +contador.dataset.cantidadTotal,
+                            valor_actual = +contador.innerText,
+                            incremento = cantidad_maxima / velocidad
 
-        anime.timeline({
-                loop: true
+                        if (valor_actual < cantidad_maxima) {
+                            contador.innerText = Math.ceil(valor_actual + incremento)
+                            setTimeout(actualizar_contador, 50)
+                        } else {
+                            contador.innerText = cantidad_maxima
+                        }
+                    }
+                    actualizar_contador()
+                }
+            }
+            //IntersectionObserver
+            const mostrarContadores = elementos => {
+                elementos.forEach(elemento => {
+                    if (elemento.isIntersecting) {
+                        elemento.target.classList.add('animar')
+                        elemento.target.classList.remove('ocultar')
+                        setTimeout(animarContadores, 600)
+                    }
+                });
+            }
+            const observer = new IntersectionObserver(mostrarContadores, {
+                threshold: 0.75 //0-1
             })
-            .add({
-                targets: '.ml10 .letter',
-                rotateY: [-90, 0],
-                // duration: 1300,
-                duration: 2000,
-                delay: (el, i) => 45 * i
-            }).add({
-                targets: '.ml10',
-                opacity: 0,
-                // duration: 1000,
-                duration: 1000,
-                easing: "easeOutExpo",
-                delay: 10000
+
+            const elementosHTML = document.querySelectorAll('.contador')
+            elementosHTML.forEach(elementoHTML => {
+                observer.observe(elementoHTML)
+            })
+        });
+    </script>
+    <script>
+        AOS.init();
+
+        const enviarCorreo = (e) => {
+            e.preventDefault();
+            let form = new FormData(document.getElementById("formContacto"));
+            fetch('/lib/correo_inicio.php', {
+                method: "POST",
+                body: form
+            }).then(function(res) {
+                return res.text();
+            }).then(function(res) {
+                alert(res);
+                e.target.reset();
             });
+        }
     </script>
 
 </body>

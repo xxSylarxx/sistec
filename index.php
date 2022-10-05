@@ -391,6 +391,8 @@
             padding: 4rem 0 4rem;
         }
 
+        /* animacion temblor */
+
         @keyframes temblor {
             0% {
                 -webkit-transform: translate(0px, 0px);
@@ -534,6 +536,7 @@
             transition: .3s;
         }
 
+
         #cursos div.card:hover img {
             transform: scale(1.06);
         }
@@ -593,18 +596,52 @@
 
         #cursos .owl-theme .owl-nav {
             /* margin-top: -292px; */
-            
+
             position: absolute;
         }
 
-        #cursos .owl-prev{
-           margin-right: 10rem;
-           font-size:40px;
+        #cursos .owl-prev {
+            margin-right: 10rem;
+            font-size: 40px;
         }
 
-        #cursos .owl-next{
+        #cursos .owl-next {
             margin-left: 35rem;
-            font-size:40px;
+            font-size: 40px;
+        }
+
+        /* animacion para aparecer */
+        #cursos div.card>.card-footer {
+            -webkit-animation: slide-in-top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        }
+
+        @-webkit-keyframes slide-in-top {
+            0% {
+                -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-top {
+            0% {
+                -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
         }
 
         /* Estilos de logros */
@@ -724,7 +761,7 @@
                 <div class="col-lg-3 col-md-6" id="row-section-plataform">
                     <div class="row">
                         <div class="col-lg-2">
-                            <center><img src="./assets/img/icons/calendario.png" alt="" width="50" height="50"></center>
+                            <center><img src="./assets/img/icons/instructor.png" alt="" width="50" height="50"></center>
                         </div>
                         <div class="col-lg-9">
                             <h5>Docentes Calificados</h5>
@@ -736,7 +773,7 @@
                 <div class="col-lg-3 col-md-6" id="row-section-plataform">
                     <div class="row">
                         <div class="col-lg-2">
-                            <center><img src="./assets/img/icons/calendario.png" alt="" width="50" height="50"></center>
+                            <center><img src="./assets/img/icons/libro.png" alt="" width="50" height="50"></center>
                         </div>
                         <div class="col-lg-9">
                             <h5>Educación Personalizada</h5>
@@ -748,7 +785,7 @@
                 <div class="col-lg-3 col-md-6" id="row-section-plataform">
                     <div class="row">
                         <div class="col-lg-2">
-                            <center><img src="./assets/img/icons/calendario.png" alt="" width="50" height="50"></center>
+                            <center><img src="./assets/img/icons/certificado.png" alt="" width="50" height="50"></center>
                         </div>
                         <div class="col-lg-9">
                             <h5>Certificación</h5>
@@ -794,7 +831,9 @@
                         <h2 id="parte1">&nbsp;Cursos</h2>
                     </div>
                     <br>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque unde odio dolorum, consequuntur corporis quis eius, saepe culpa, consectetur tenetur expedita. Necessitatibus explicabo consectetur obcaecati ex nulla nemo repudiandae.</p>
+                    <p>Podrás seguir actualizándote con nuestros cursos, diseñados para que puedas
+                        seguir especializándote y con la más alta calidad educativa.
+                        Conoce nuestros cursos en Computación, Diseño Gráfico, Ind. del Vestido y Barbería.</p>
                 </div>
             </div>
             <br>
@@ -811,8 +850,14 @@
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">COMPUTACIÓN</h5>
 
                             <div class="detalle">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum exercitationem quisquam voluptate voluptas, aspernatur reiciendis cupiditate
-                                ipsum ab unde quas? Rem nihil eligendi, accusantium quis ex corrupti suscipit numquam nulla?
+                                Los cursos que forman parte del Área de
+                                computación permitirán al estudiante recibir
+                                una sólida formación básica para el manejo de
+                                la computadora y las aplicaciones de oficina
+                                desarrollando sus habilidades y capacidades que
+                                le permitirán desempeñarse como colaborador
+                                efectivo en los centros de informática de
+                                organizaciones productivas tanto públicas como privadas.
                             </div>
 
                         </div>
@@ -821,7 +866,7 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 8 meses</span>
 
                                 </div>
                             </div>
@@ -846,12 +891,10 @@
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">DISEÑO GRÁFICO</h5>
 
                             <div class="detalle">
-
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eaque neque magnam quisquam
-                                expedita, laborum maiores. Corporis, accusamus maxime.
-                                Quisquam earum aliquid dolores? Exercitationem dolor
-                                necessitatibus reprehenderit soluta accusamus corrupti fuga!
+                                Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías
+                                de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las
+                                tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e
+                                implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
                             </div>
 
                         </div>
@@ -860,7 +903,7 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 1 año</span>
 
                                 </div>
                             </div>
@@ -886,11 +929,11 @@
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">IND DEL VESTIDO</h5>
 
                             <div class="detalle">
-
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
-                                neque incidunt consequuntur necessitatibus repudiandae possimus voluptate
-                                accusamus, sunt eius rem officiis provident iusto qui eaque mollitia ratione
-                                corporis animi quibusdam!
+                                El curso de Industria del Vestido tiene la finalidad de satisfacer
+                                la demanda de personal calificado para diseñar, confeccionar, fabricar,
+                                e innovar prendas de vestir, mediante el desarrollo de habilidades en dibujo,
+                                selección de texturas, formas, colores; así como en la operación de equipos de
+                                la industria del vestido, que le permitan aportar y crear soluciones en el campo del diseño de modas.
                             </div>
 
                         </div>
@@ -899,7 +942,7 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 1 año</span>
 
                                 </div>
                             </div>
@@ -925,10 +968,10 @@
                             <h5 class="fw-bold text-uppercase " style="font-size: 18px;color:var(--color4);">BARBERÍA</h5>
 
                             <div class="detalle">
-
-                                Lorem ipsum dolor sit, amet consect
-                                etur adipisicing elit. Voluptates possimus,
-                                deserunt fugiat veniam hic nesciunt. Neque incidunt beatae repudiandae eum, fugiat temporibus, distinctio consectetur adipisci sit, minima eveniet harum tempore.
+                                La Barbería es ya una tendencia en varones del Perú y todo el
+                                mundo. Cada vez más hombres invierten en mejorar su imagen con
+                                el estilo adecuado para ellos. Por eso, estudiar barbería y abrir
+                                una Barbería es una excelente oportunidad de negocio.
                             </div>
 
                         </div>
@@ -937,7 +980,7 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 6 meses</span>
 
                                 </div>
                             </div>
@@ -962,15 +1005,16 @@
                         <h2 id="parte1">&nbsp;Logros</h2>
                     </div>
                     <br>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque unde odio dolorum, consequuntur corporis quis eius, saepe culpa, consectetur tenetur expedita. Necessitatibus explicabo consectetur obcaecati ex nulla nemo repudiandae.</p>
+                    <p>Conocer y valorar los logros nos permite compartirlo. Contamos con mas de 4000 egresados que nos respaldan nuestra calidad académica.</p>
                 </div>
             </div>
+            <br>
             <br>
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador animar">
                     <div class="row d-flex">
                         <div class="col-lg-3 d-flex justify-content-center">
-                            <img src="./public/img/icons/profesor.png" alt="" height="50">
+                            <img src="./assets/img/icons/institucion.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
                             <div class="contador_cantidad text-center" data-cantidad-total="25">0</div>
@@ -983,7 +1027,7 @@
                 <div class="col-lg-3 d-flex justify-content-center contador animar">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/egresados.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6 mx-1">
                             <div class="d-flex justify-content-center">
@@ -1000,7 +1044,7 @@
                 <div class="col-lg-3 d-flex justify-content-center contador animar">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/carreras.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6 mx-1">
                             <div class="d-flex justify-content-center">
@@ -1018,7 +1062,7 @@
                 <div class="col-lg-3 d-flex justify-content-center contador animar">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/curso.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6 mx-1">
                             <div class="d-flex justify-content-center">
@@ -1046,15 +1090,17 @@
                         <h2 id="parte1">&nbsp;Carreras</h2>
                     </div>
                     <br>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque unde odio dolorum, consequuntur corporis quis eius, saepe culpa, consectetur tenetur expedita. Necessitatibus explicabo consectetur obcaecati ex nulla nemo repudiandae.</p>
+                    <p> Nuestras Carreras están enfocadas en desarrollar y maximizar toda la capacidad de nuestros estudiantes.
+                        Contamos con más de 25 años de experiencia lo cual nos permite asegurar grandes resultados en la educación de los estudiantes.
+                        Sé un profesional en poco tiempo, contamos con carreras de : Cosmetología, Gastronomía y Pastelería.</p>
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-md-3 my-3 p-0">
+                <div class="col-md-4 my-3 p-0">
 
                     <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
-                        <span class="news">Cursos</span>
+                        <span class="news">Carreras</span>
                         <div style="overflow: hidden;">
                             <img src="./assets/img/web/portada_cosmetologia.jpg" width="100%" height="300">
                         </div>
@@ -1063,8 +1109,11 @@
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">COSMETOLOGÍA</h5>
 
                             <div class="detalle">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum exercitationem quisquam voluptate voluptas, aspernatur reiciendis cupiditate
-                                ipsum ab unde quas? Rem nihil eligendi, accusantium quis ex corrupti suscipit numquam nulla?
+                                La carrera de Cosmetología
+                                tiene como objetivo formar profesionales capaces de
+                                ocuparse de la belleza y la salud de la piel de las
+                                personas con todas las herramientas propicias a tal fin.
+                                Se trata de un cursado corto,
                             </div>
 
                         </div>
@@ -1073,7 +1122,7 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 2 años</span>
 
                                 </div>
                             </div>
@@ -1086,10 +1135,10 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 my-3 p-0">
+                <div class="col-md-4 my-3 p-0">
 
                     <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
-                        <span class="news">Cursos</span>
+                        <span class="news">Carreras</span>
                         <div style="overflow: hidden;">
                             <img src="./assets/img/web/gastronomia2.jpg" width="100%" height="300">
                         </div>
@@ -1098,12 +1147,7 @@
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">GASTRONOMÍA</h5>
 
                             <div class="detalle">
-
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eaque neque magnam quisquam
-                                expedita, laborum maiores. Corporis, accusamus maxime.
-                                Quisquam earum aliquid dolores? Exercitationem dolor
-                                necessitatibus reprehenderit soluta accusamus corrupti fuga!
+                                Como alumno de la Carrera de Gastronomía recibirás una formación culinaria integral, con una visión empresarial sólida, brindándote las herramientas que te permitirán
                             </div>
 
                         </div>
@@ -1112,23 +1156,19 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 2 años</span>
 
                                 </div>
                             </div>
                             <div class="course-btn">
                                 <a class="default-btn2" href="#">Ver Más</a>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-                <div class="col-md-3 my-3 p-0">
-
+                <div class="col-md-4 my-3 p-0">
                     <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
-                        <span class="news">Cursos</span>
+                        <span class="news">Carreras</span>
                         <div style="overflow: hidden;">
                             <img src="./assets/img/web/portada_pasteleria.webp" width="100%" height="300">
                         </div>
@@ -1138,11 +1178,7 @@
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">PASTELERÍA</h5>
 
                             <div class="detalle">
-
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
-                                neque incidunt consequuntur necessitatibus repudiandae possimus voluptate
-                                accusamus, sunt eius rem officiis provident iusto qui eaque mollitia ratione
-                                corporis animi quibusdam!
+                                La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles
                             </div>
 
                         </div>
@@ -1151,7 +1187,7 @@
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
+                                    <span class="my-auto">&nbsp;Duracion: 1 año</span>
 
                                 </div>
                             </div>
@@ -1164,44 +1200,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 my-3 p-0">
 
-                    <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
-                        <span class="news">Cursos</span>
-                        <div style="overflow: hidden;">
-                            <img src="./assets/img/web/barberia.jpg" width="100%" height="300">
-                        </div>
-
-                        <div class="card-body">
-
-                            <h5 class="fw-bold text-uppercase " style="font-size: 18px;color:var(--color4);">BARBERÍA</h5>
-
-                            <div class="detalle">
-
-                                Lorem ipsum dolor sit, amet consect
-                                etur adipisicing elit. Voluptates possimus,
-                                deserunt fugiat veniam hic nesciunt. Neque incidunt beatae repudiandae eum, fugiat temporibus, distinctio consectetur adipisci sit, minima eveniet harum tempore.
-                            </div>
-
-                        </div>
-
-                        <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
-                            <div class="row p-3">
-                                <div class="col-lg  d-flex justify-content-start">
-                                    <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
-                                    <span class="my-auto">&nbsp;Duracion: 3 meses</span>
-
-                                </div>
-                            </div>
-                            <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
             </div>
         </div>
     </section>
