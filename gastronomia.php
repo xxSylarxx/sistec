@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consultora SISTERRA S.A.C. es una empresa que tiene 3 campos de acción en el marco de la Gestión del Riesgo de Desastres, Geomática, Geodesia, Gestión Ambiental, Planeamiento Estratégico y Seguridad y Defensa Nacional.">
+    <meta name="description" content="#">
     <link rel="shortcut icon" href="./assets/img/icons/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -822,8 +822,8 @@
                                                     </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO I</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">CICLO II</td>
+                                                            <td class="text-white" style="background-color:var(--color2);width: 430px;height:42px;">CICLO I</td>
+                                                            <td class="text-white" style="background-color:var(--color2);width: 430px;height:42px;">CICLO II</td>
                                                         </tr>
                                                         <tr style="text-align:center;background-color:white;">
                                                             <td style="background-color: var(--color6);">TÉCNICAS CULINARIAS I</td>
