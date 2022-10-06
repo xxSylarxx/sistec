@@ -23,8 +23,6 @@
             position: relative;
         }
 
-
-
         #slider img {
             /* height: 720px; */
             object-fit: cover;
@@ -34,7 +32,7 @@
         /* Estilos de portada interna */
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/pasteleria_portada_principal.jpg');
+                url('./assets/img/web/computacion_portada_principal.jpg');
             background-size: 100%;
             background-position: center;
             /* background-attachment: fixed; */
@@ -687,7 +685,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-8 ">
                     <div id="apply-area" class="py-5">
-                        <img src="./assets/img/web/portada_pasteleria.webp" alt="">
+                        <img src="./assets/img/web/computacion_portada.jpg" alt="">
                         <div class=" course-apply-btn">
                             <a href="#" class="default-btn">Inscríbete</a>
                         </div>
@@ -712,11 +710,11 @@
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active " id="descripcion" role="tabpanel" aria-labelledby="descripcion-tab">
-                                <h1>PASTELERÍA, PANADERÍA Y REPOSTERÍA</h1>
+                                <h1>DISEÑO GRAFICO</h1>
                                 <p class="mt-3 text-justify" style="color: var(--color4);">
-                                    La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería. Este estudio es una de las ramas que se pueden encontrar a la gastronomía.
+                                    Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
                                 </p>
-                                <img src="./assets/img/web/pasteleria2.jpg" alt="">
+                                <img src="./assets/img/web/computacion2.jpg" alt="">
                                 <br>
                                 <br>
                                 <div class="row">
@@ -732,60 +730,76 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade  " id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <!-- <p>La egresada en la carrera de PASTELERÍA estará en capacidad de desempeñarse como:</p> -->
+                            <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <p>Al finalizar el curso serás capaz de comprender la estrategia del negocio y proponer el lenguaje de comunicación visual más adecuado con la finalidad de orientar los esfuerzos de la empresa hacia conectar visualmente mejor con el usuario o cliente, a través de la creación, diseño o revitalización de marcas poderosas.</p>
+                                <br>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Cuenta con un gran sentido de compromiso para asumir los retos que desee emprender.</p>
+                                    <p>Reunirse con clientes o directores de arte de las empresas a fin de determinar el alcance de un proyecto.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Formado para trabajar en equipo y ejerciendo su liderazgo.</p>
+                                    <p>Hacer uso de softwares de diseño, edición de fotografía, ilustración digital entre otros para sacar adelante los proyectos.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Se destaca por su capacidad y dominio en los procesos de producción y su conocimiento en el manejo de insumos y de maquinarias.</p>
+                                    <p>Crear elementos visuales como logos, imágenes originales e ilustraciones para enviar el mensaje correcto.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Su creatividad para formular recetas aplicando estrictos controles de calidad y BPM.</p>
+                                    <p>Creación de diseños incluyendo la selección de colores, imágenes y tipografía.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Puede desempeñarse en la parte de producción como de planta.</p>
+                                    <p>Presentar conceptos y propuestas de diseño a los clientes.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Posee valores de respeto, responsabilidad y puntualidad.</p>
+                                    <p>Incorporar cambios recomendados por los clientes dentro del diseño final.</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Capacitado con las últimas tendencias en panificación y pastelería con la más alta tecnología a nivel mundial.</p>
+                                    <p>Revisar posibles errores en el diseño final antes de publicarlos o imprimirlos.</p>
                                 </div>
                                 <br><br>
                                 <h4>Campo Laboral</h4>
                                 <ul>
-                                    <li>Restaurantes, hoteles y cruceros.</li>
-                                    <li>Empresas de alimentación industrial y colectiva.</li>
+                                    <li>Editoriales.</li>
+                                    <li>Corporaciones publicitarias.</li>
+                                    <li>Medios televisivos.</li>
+                                    <li>Estudios fotográficos.</li>
+                                    <li>Institutos educativos.</li>
                                 </ul>
-                                <!-- <div class="d-flex">
-                                    <span><i class="fas fa-check"></i></span>
-                                    <p>Restaurantes, hoteles y cruceros.</p>
-                                </div> -->
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Martes y jueves 6-9 pm</p>
+                                    <p>Lunes, miércoles y viernes 8-10 am</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Sabados 9-1 pm</p>
+                                    <p>Lunes, miércoles y viernes 10-12 pm</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Domingos 9-1 pm</p>
+                                    <p>Lunes, miércoles y viernes 4-6 pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Lunes, miércoles y viernes 6-8 am</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Martes y jueves 8-11 am</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Martes y jueves 4-7 pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <span><i class="fas fa-check"></i></span>
+                                    <p>Sábados 8-11 am</p>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
@@ -810,105 +824,79 @@
                                                 <table class="table table-bordered">
                                                     <thead class="text-white" style="background-color:var(--color1);">
                                                         <tr style="text-align:center;">
-                                                            <td colspan="2">PLAN CURRICULAR BÁSICO</td>
+                                                            <td colspan="2">PLAN CURRICULAR</td>
                                                             <!-- <td colspan="2">PRIMER MÓDULO</td> -->
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">PRIMER MÓDULO</td>
-                                                            <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
+                                                            <td class="text-white" style="background-color:var(--color2);">COREL DRAW</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">ADOBE PHOTOSHOP</td>
                                                         </tr>
                                                         <tr style="background-color:white;">
                                                             <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul style="list-style: none;">
-                                                                    <li> <b>CLASE 1:</b> Queque Marmoleado, Queque Inglés y Salsa de acompañamiento.</li>
-                                                                    <li> <b>CLASE 2:</b> Pye de Limón y Pye de Manzana.</li>
-                                                                    <li> <b>CLASE 3:</b> Pastel de Acelga y Tartaletas de Frutas.</li>
-                                                                    <li> <b>CLASE 4:</b> Torta de Chocolate y Brownies.</li>
-                                                                    <li> <b>CLASE 5:</b> Torta Tres Leches y Pionono.</li>
-                                                                    <li> <b>CLASE 6:</b> Donas y Churros.</li>
-                                                                    <li> <b>CLASE 7:</b> Soufflé frio - papillon.</li>
-                                                                    <li> <b>CLASE 8:</b> Examen Parcial.</li>
+                                                                <ul>
+                                                                    <li>Realiza diseños, logotipos, banners, tarjetas de presentación, boletas, facturas, etc.</li>
                                                                 </ul>
                                                             </td>
                                                             <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul style="list-style: none;">
-                                                                    <li> <b>CLASE 9:</b> Masa Hojaldre y Aplicaciones.</li>
-                                                                    <li> <b>CLASE 10:</b> Tarta Linz y Torta Helada.</li>
-                                                                    <li> <b>CLASE 11:</b> Pye de Pecanas y Merengado de Chirimoya.</li>
-                                                                    <li> <b>CLASE 12:</b> Empanada de Carne y Quiche.</li>
-                                                                    <li> <b>CLASE 13:</b> Rosca de Reyes y Rollitos de Canela.</li>
-                                                                    <li> <b>CLASE 14:</b> Helado de Lúcuma, Helado de Chocolate y Tulipa.</li>
-                                                                    <li> <b>CLASE 15:</b> Elaboración de costos de Pastelería.</li>
-                                                                    <li> <b>CLASE 16:</b> Examen Final.</li>
+                                                                <ul>
+                                                                    <li>Edita imágenes con herramienta de gran calidad.</li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
                                                     </tbody>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">SEGUNDO MÓDULO</td>
-                                                            <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
+                                                            <td class="text-white" style="background-color:var(--color2);">ADOBE ILLUSTRATOR</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">ADOBE INDESING</td>
                                                         </tr>
                                                         <tr style="background-color:white;">
-                                                            <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul style="list-style: none;">
-                                                                    <li> <b>CLASE 1:</b> Mousse de Tres Chocolates y Torta de Moka.</li>
-                                                                    <li> <b>CLASE 2:</b> Fraisier y Torta Sacher.</li>
-                                                                    <li> <b>CLASE 3:</b> Selva Negra y Tiramisú.</li>
-                                                                    <li> <b>CLASE 4:</b> Creme Brulé y TarteTatin con masa hojaldre.</li>
-                                                                    <li> <b>CLASE 5:</b> Saint Honore y Paris Brest con hojaldre.</li>
-                                                                    <li> <b>CLASE 6:</b> Cheesecake y Bruselina.</li>
-                                                                    <li> <b>CLASE 7:</b> Torta Charlotte y Torta Opera.</li>
-                                                                    <li> <b>CLASE 8:</b> Examen Parcial.</li>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Edita imágenes con herramienta de gran calidad.</li>
                                                                 </ul>
                                                             </td>
-                                                            <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul style="list-style: none;">
-                                                                    <li> <b>CLASE 9:</b> Bavarois de Maracuya y Urubamba.</li>
-                                                                    <li> <b>CLASE 10:</b> Chocolatería Fina.</li>
-                                                                    <li> <b>CLASE 11:</b> Strudel de Manzana y Vol Au Vent con Fricassé.</li>
-                                                                    <li> <b>CLASE 12:</b> Vesubio y Torta Pomme.</li>
-                                                                    <li> <b>CLASE 13:</b> Peras al Sabayón y Zucotto.</li>
-                                                                    <li> <b>CLASE 14:</b> Masa Elástica y Decoración en Maqueta.</li>
-                                                                    <li> <b>CLASE 15:</b> Festival de Cupcakes.</li>
-                                                                    <li> <b>CLASE 16:</b> Examen Final.</li>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Crea diseños profesionales para publicaciones digitales e impresas (libros, revistas, etc).</li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
-
                                                     </tbody>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">TERCER MÓDULO</td>
-                                                            <!-- <td class="text-white" style="background-color:var(--color2);">MAQUILLAJE</td> -->
+                                                            <td class="text-white" style="background-color:var(--color2);">ADOBE PREMIERE</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">AUTOCAD</td>
                                                         </tr>
                                                         <tr style="background-color:white;">
-                                                            <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul style="list-style: none;">
-                                                                    <li> <b>CLASE 1:</b> Empanadas, boda, Vainilla y chocolate.</li>
-                                                                    <li> <b>CLASE 2:</b> Empanadas de carne pollo.</li>
-                                                                    <li> <b>CLASE 3:</b> Masa Hojaldre, piono, pay de manzana, cono relleno, orejitas.</li>
-                                                                    <li> <b>CLASE 4:</b> Panes (karamandunka, francés, yema, integral).</li>
-                                                                    <li> <b>CLASE 5:</b> Festibal de kekes: Naranja, Chocolate, Novia, Indu y Zanahoria.</li>
-                                                                    <li> <b>CLASE 6:</b> Decoración de Tortas.</li>
-                                                                    <li> <b>CLASE 7:</b> Turrones.</li>
-                                                                    <li> <b>CLASE 8:</b> Evaluación</li>
-                                                                    <li> <b>CLASE 9:</b> Pay de Manzana, Limón y Fresa.</li>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Edita video con herramientas de edición de alto rendimiento líderes del sector.</li>
                                                                 </ul>
                                                             </td>
-                                                            <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul style="list-style: none;">
-                                                                    <li> <b>CLASE 10:</b> Pastelería Fina: Brucelinas, Torta Ganache, Torta Bombom.</li>
-                                                                    <li> <b>CLASE 11:</b> Biscocho, pan de maíz e integral.</li>
-                                                                    <li> <b>CLASE 12:</b> Evaluación.</li>
-                                                                    <li> <b>CLASE 13:</b> Postres en Vasos Chiskey maracuyá, Suspiro y tartaleta.</li>
-                                                                    <li> <b>CLASE 14:</b> Panes (Pitipan, Chabata y Enrollado de cebolla).</li>
-                                                                    <li> <b>CLASE 15:</b> Escultura de Chantilly: Perrito, Palomita, Cisne.</li>
-                                                                    <li> <b>CLASE 16:</b> Chocolatería.</li>
-                                                                    <li> <b>CLASE 17:</b> Bocaditos (Alitas a la brouche, minicausitas).</li>
-                                                                    <li> <b>CLASE 18:</b> Examen Final.</li>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Elabora dibujos técnicos, planos, etc.</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <tbody>
+                                                        <tr style="text-align:center;background-color:white;">
+                                                            <td class="text-white" style="background-color:var(--color2);">DISEÑO MULTIMEDIA</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">3D MAX</td>
+                                                        </tr>
+                                                        <tr style="background-color:white;">
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Adobe premier: Crea gráficos animados y efectos visuales cinematográficos.</li>
+                                                                    <li>Abode After Effects.</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td style="background-color: var(--color6);">
+                                                                <ul>
+                                                                    <li>Es un programa de creación de gráficos.</li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
@@ -934,12 +922,44 @@
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_cosmetologia.jpg" alt="foto">
+                                    <img src="./assets/img/web/computacion.jpg" alt="foto">
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="cosmetologia.php" class="card-title">Cosmetología</a>
-                                        <p class="p-carrera">La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. </p>
+                                        <a href="computacion.php" class="card-title">Computación</a>
+                                        <p class="p-carrera">
+                                            Los cursos que forman parte del Área de computación permitirán al estudiante recibir una sólida formación básica para el manejo de la computadora y las aplicaciones de oficina desarrollando sus habilidades y capacidades que le permitirán desempeñarse como colaborador efectivo en los centros de informática de organizaciones productivas tanto públicas como privadas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="card mb-3">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/web/diseño.jpg" alt="foto">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <a href="diseno.php" class="card-title">Diseño Gráfico</a>
+                                        <p class="p-carrera">
+                                            Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="card mb-3">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/web/vestido.jpg" alt="foto">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <a href="vestido.php" class="card-title">Ind. de Vestido</a>
+                                        <p class="p-carrera">
+                                            El curso de Industria del Vestido tiene la finalidad de satisfacer la demanda de personal calificado para diseñar, confeccionar, fabricar, e innovar prendas de vestir, mediante el desarrollo de habilidades en dibujo, selección de texturas, formas, colores; así como en la operación de equipos de la industria del vestido, que le permitan aportar y crear soluciones en el campo del diseño de modas.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -947,18 +967,19 @@
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                    <img src="./assets/img/web/barberia.jpg" alt="foto">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="gastronomia.php" class="card-title">Gastronomía</a>
+                                        <a href="barberia.php" class="card-title">Barbería</a>
                                         <p class="p-carrera">
-                                            Como alumno de la Carrera de Gastronomía recibirás una formación culinaria integral, con una visión empresarial sólida, brindándote las herramientas que te permitirán desarrollar habilidades y destrezas para alcanzar los estándares que exige el mercado laboral.
+                                            LA BARBERÍA es ya una tendencia en varones del Perú y todo el mundo. Cada vez más hombres invierten en mejorar su imagen con el estilo adecuado para ellos. Por eso, estudiar barbería y abrir una Barbería es una excelente oportunidad de negocio.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

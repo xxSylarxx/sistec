@@ -32,7 +32,7 @@
         /* Estilos de portada interna */
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/ind_vestido_principal.jpg');
+                url('./assets/img/web/computacion_portada_principal.jpg');
             background-size: 100%;
             background-position: center;
             /* background-attachment: fixed; */
@@ -293,7 +293,7 @@
             right: 0;
             width: 100%;
             /* height: 80.5%; */
-            height: 83%;
+            height: 85.5%;
             content: "";
             background-color: #000000;
             opacity: 0.46;
@@ -685,7 +685,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-8 ">
                     <div id="apply-area" class="py-5">
-                        <img src="./assets/img/web/ind_vestido_portada.jpg" alt="">
+                        <img src="./assets/img/web/computacion_portada.jpg" alt="">
                         <div class=" course-apply-btn">
                             <a href="#" class="default-btn">Inscríbete</a>
                         </div>
@@ -719,7 +719,7 @@
                                     actualizarse o adquirir nuevos conocimientos, que le permitan mejorar su perfil
                                     profesional, optimizar su desempeño laboral, utilizando y administrando herramientas modernas de Tecnología de Información (IT).
                                 </p>
-                                <img src="./assets/img/web/ind_vestido2.jpg" alt="">
+                                <img src="./assets/img/web/computacion2.jpg" alt="">
                                 <br>
                                 <br>
                                 <div class="row">
@@ -843,43 +843,27 @@
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
                                                             <td class="text-white" style="background-color:var(--color2);">PRESENTACIONES EN POWER POINT, PPT, PREZZI</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">SASTRERIA DAMAS (6 MESES)</td>
+                                                            <td class="text-white" style="background-color:var(--color2);">OFIMATICA EN LA NUBE CON GOOGLE DRIVE</td>
                                                         </tr>
                                                         <tr style="background-color:white;">
-                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                            <td style="background-color: var(--color6);">
                                                                 <ul>
                                                                     <li>Aprenda a crear rápidamente presentaciones dinámicas con una buena estética, utilizando multimedia, animaciones, etc.</li>
                                                                 </ul>
                                                             </td>
-                                                            <td style="background-color: var(--color6); width: 50%;">
+                                                            <td style="background-color: var(--color6);">
                                                                 <ul>
-                                                                    <li>Aprenda a crear rápidamente presentaciones dinámicas con una buena estética, utilizando multimedia, animaciones, etc.</li>
+                                                                    <li>Introducción a la nube de Google.</li>
+                                                                    <li>Cuenta de Google (Drive).</li>
+                                                                    <li>Google Docs (procesador de texto).</li>
+                                                                    <li>Google Sheet (Hoja de cálculo).</li>
+                                                                    <li>Google Slides (Presentador de diapositivas).</li>
+                                                                    <li>Word Avanzado.</li>
+                                                                    <li>Access.</li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
 
-                                                    </tbody>
-                                                    <tbody>
-                                                        <tr style="text-align:center;background-color:white;">
-                                                            <td class="text-white" style="background-color:var(--color2);">LENCERIA (4 MESES)</td>
-                                                            <td class="text-white" style="background-color:var(--color2);">LENCERIA DEL HOGAR (3 MESES)</td>
-                                                        </tr>
-                                                        <tr style="background-color:white;">
-                                                            <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul>
-                                                                    <li>Confección de prendas interiores para Damas.</li>
-                                                                    <li>Confección de prendas interiores para Caballeros y Niños.</li>
-                                                                    <li>Confección de pijamas y batas.</li>
-                                                                </ul>
-                                                            </td>
-                                                            <td style="background-color: var(--color6); width: 50%;">
-                                                                <ul>
-                                                                    <li>Confección de lencería para el dormitorio.</li>
-                                                                    <li>Confección de lencería para cocina y comedor.</li>
-                                                                    <li>Confección de lencería para sala y el baño.</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -899,31 +883,31 @@
                             <h4 style="color:var(--color1);">Más Carreras</h4>
                         </div>
                         <br>
-                        <div class="card mb-3">
+                        <!-- <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_cosmetologia.jpg" alt="foto">
+                                    <img src="./assets/img/web/computacion.jpg" alt="foto">
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Computación</a>
+                                        <a href="computacion.php" class="card-title">Computación</a>
                                         <p class="p-carrera">
                                             Los cursos que forman parte del Área de computación permitirán al estudiante recibir una sólida formación básica para el manejo de la computadora y las aplicaciones de oficina desarrollando sus habilidades y capacidades que le permitirán desempeñarse como colaborador efectivo en los centros de informática de organizaciones productivas tanto públicas como privadas.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                    <img src="./assets/img/web/diseño.jpg" alt="foto">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Diseño Gráfico</a>
+                                        <a href="diseno.php" class="card-title">Diseño Gráfico</a>
                                         <p class="p-carrera">
-                                            La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería.
+                                            Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
                                         </p>
                                     </div>
                                 </div>
@@ -932,11 +916,11 @@
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                    <img src="./assets/img/web/vestido.jpg" alt="foto">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Ind. de Vestido</a>
+                                        <a href="vestido.php" class="card-title">Ind. de Vestido</a>
                                         <p class="p-carrera">
                                             El curso de Industria del Vestido tiene la finalidad de satisfacer la demanda de personal calificado para diseñar, confeccionar, fabricar, e innovar prendas de vestir, mediante el desarrollo de habilidades en dibujo, selección de texturas, formas, colores; así como en la operación de equipos de la industria del vestido, que le permitan aportar y crear soluciones en el campo del diseño de modas.
                                         </p>
@@ -947,13 +931,13 @@
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                    <img src="./assets/img/web/barberia.jpg" alt="foto">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Barbería</a>
+                                        <a href="barberia.php" class="card-title">Barbería</a>
                                         <p class="p-carrera">
-                                            La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería.
+                                            LA BARBERÍA es ya una tendencia en varones del Perú y todo el mundo. Cada vez más hombres invierten en mejorar su imagen con el estilo adecuado para ellos. Por eso, estudiar barbería y abrir una Barbería es una excelente oportunidad de negocio.
                                         </p>
                                     </div>
                                 </div>

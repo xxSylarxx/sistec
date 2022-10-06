@@ -114,9 +114,9 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="computacion.php">Computación</a></li>
-                            <li><a class="dropdown-item" href="#">Diseño Gráfico</a></li>
+                            <li><a class="dropdown-item" href="diseno.php">Diseño Gráfico</a></li>
                             <li><a class="dropdown-item" href="vestido.php">Ind del Vestido</a></li>
-                            <li><a class="dropdown-item" href="#">Barbería</a></li>
+                            <li><a class="dropdown-item" href="barberia.php">Barbería</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

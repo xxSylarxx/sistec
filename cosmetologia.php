@@ -1167,7 +1167,7 @@
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Gastronomía</a>
+                                        <a href="gastronomia.php" class="card-title">Gastronomía</a>
                                         <p class="p-carrera">Como alumno de la Carrera de Gastronomía recibirás una formación culinaria integral, con una visión empresarial sólida, brindándote las herramientas que te permitirán desarrollar habilidades y destrezas para alcanzar los estándares que exige el mercado laboral. </p>
                                     </div>
                                 </div>
@@ -1180,7 +1180,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Pastelería</a>
+                                        <a href="pasteleria.php" class="card-title">Pastelería</a>
                                         <p class="p-carrera">
                                             La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería.
                                         </p>
