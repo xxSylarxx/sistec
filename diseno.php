@@ -32,9 +32,9 @@
         /* Estilos de portada interna */
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/computacion_portada_principal.jpg');
+                url('./assets/img/web/diseño_portada_principal.jpg');
             background-size: 100%;
-            background-position: center;
+            background-position: top;
             /* background-attachment: fixed; */
 
             /* background-repeat: no-repeat; */
@@ -685,7 +685,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-8 ">
                     <div id="apply-area" class="py-5">
-                        <img src="./assets/img/web/computacion_portada.jpg" alt="">
+                        <img src="./assets/img/web/diseño_portada.jpg" alt="">
                         <div class=" course-apply-btn">
                             <a href="#" class="default-btn">Inscríbete</a>
                         </div>
@@ -714,7 +714,7 @@
                                 <p class="mt-3 text-justify" style="color: var(--color4);">
                                     Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
                                 </p>
-                                <img src="./assets/img/web/computacion2.jpg" alt="">
+                                <img src="./assets/img/web/diseño2.png" alt="">
                                 <br>
                                 <br>
                                 <div class="row">
