@@ -813,7 +813,7 @@
                                                     </thead>
                                                     <tbody>
                                                         <tr style="text-align:center;background-color:white;">
-                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">COREL DRAW</td>
+                                                            <td colspan="2" class="text-white" style="background-color:var(--color2);">BARBERÍA</td>
                                                             <!-- <td class="text-white" style="background-color:var(--color2);">ADOBE PHOTOSHOP</td> -->
                                                         </tr>
                                                         <tr style="background-color:white;">
