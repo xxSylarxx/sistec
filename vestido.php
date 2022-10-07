@@ -664,8 +664,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>CARRERAS</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis cumque veritatis, <br>
-                        nam sequi, harum tempora praesentium obcaecati architecto sunt corporis.</p>
+                    <p>INDUSTRIA DEL VESTIDO</p>
                 </div>
             </div>
         </div>

@@ -120,7 +120,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Noticias</a>
+                        <a class="nav-link" href="noticias.php">Noticias</a>
                     </li>
                     <li class="nav-item blog2">
                         <a class="nav-link" href="#">Contacto</a>

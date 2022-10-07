@@ -679,8 +679,122 @@
         </div>
     </section>
 
-    <section class="py-5">
-        <div class="container py-1">
+    <section id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-lg-6 my-auto">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
+                        <h2 id="parte1">Sobre</h2>
+                        <h2 id="parte2">&nbsp;Nosotros</h2>
+                    </div>
+                    <br>
+                    <div class="ps-4">
+                        <p>Somos una Institución de Formación Técnica, ubicada en el distrito de San Juan de
+                            Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa Local 01 (UGEL 01)
+                            del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
+                        <br>
+                        <div class="about-btn mt-45">
+                            <a class="default-btn" href="about-us.html">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-lg-6">
+
+                    <img src="./assets/img/web/nosotros.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="logros">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-lg-6 my-auto">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
+                        <h2 id="parte2">Nuestros</h2>
+                        <h2 id="parte1">&nbsp;Logros</h2>
+                    </div>
+                    <div class="ps-4">
+                        <br>
+                        <p>Conocer y valorar los logros nos permite compartirlo. Contamos con mas de 4000 egresados que nos respaldan nuestra calidad académica.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row d-flex justify-content-around">
+                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                    <div class="row d-flex">
+                        <div class="col-lg-3 d-flex justify-content-center">
+                            <img src="./assets/img/icons/institucion.png" alt="" height="50">
+                        </div>
+                        <div class="col-lg-6 mx-2 ">
+                            <div class="contador_cantidad text-center" data-cantidad-total="25">0</div>
+                            <div>
+                                <p id="contadorparrafo">años</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/egresados.png" alt="" height="60"></div>
+                        </div>
+                        <div class="col-lg-6 mx-1">
+                            <div class="d-flex justify-content-center">
+                                <div class="my-auto" style="font-size:30px;">&nbsp;+</div>
+                                <div class="contador_cantidad text-center d-flex" data-cantidad-total="4000">3900</div>
+
+                            </div>
+                            <div>
+                                <p id="contadorparrafo">egresados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/carreras.png" alt="" height="60"></div>
+                        </div>
+                        <div class="col-lg-6 mx-1">
+                            <div class="d-flex justify-content-center">
+                                <!-- <div class="my-auto" style="font-size:30px;">&nbsp;+</div> -->
+                                <div class="contador_cantidad text-center d-flex" data-cantidad-total="5">0</div>
+
+                            </div>
+
+                            <div>
+                                <p id="contadorparrafo">carreras</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/curso.png" alt="" height="60"></div>
+                        </div>
+                        <div class="col-lg-6 mx-1">
+                            <div class="d-flex justify-content-center">
+                                <div class="contador_cantidad text-center d-flex" data-cantidad-total="4">0</div>
+                                <!--  <div class="my-auto" style="font-size:30px;">&nbsp;%</div> -->
+                            </div>
+
+                            <div>
+                                <p id="contadorparrafo">cursos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-5 my-auto">
                     <div class="row">
@@ -689,13 +803,13 @@
                         </div>
                         <div class="col-lg-9">
                             <h2 class="text-start" style="color:black;">Misión</h2>
-                            
+
                         </div>
                     </div>
                     <br>
                     <p>Formar Técnicos Emprendedores íntegros y competentes brindando una educación técnica de calidad que contribuya al desarrollo económico y ambiental del país.</p>
                     <br>
-                   
+
                     <br>
                     <div class="row">
                         <div class="col-lg-2">
@@ -704,7 +818,7 @@
                         </div>
                         <div class="col-lg-9">
                             <h2 class="text-start" style="color:black;">Visión</h2>
-                            
+
                         </div>
                     </div>
                     <br>
@@ -714,13 +828,8 @@
                     <center><img src="./assets/img/web/nosotros1.png" width="50%" height="600px" alt=""></center>
                 </div>
             </div>
-
         </div>
     </section>
-
-
-
-
 
 
 

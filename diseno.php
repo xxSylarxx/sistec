@@ -372,12 +372,19 @@
             /* margin-bottom: 3rem; */
         }
 
-
-
         #carrera img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+
+        #carrera .imgItem {
+            width: 100%;
+        }
+
+        #carrera .imgItem:hover {
+            transition: all .3s ease-in-out;
+            transform: scale(1.08);
         }
 
         #img-icono {
@@ -664,8 +671,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>CARRERAS</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis cumque veritatis, <br>
-                        nam sequi, harum tempora praesentium obcaecati architecto sunt corporis.</p>
+                    <p>DISEÑO GRÁFICO</p>
                 </div>
             </div>
         </div>
@@ -714,7 +720,31 @@
                                 <p class="mt-3 text-justify" style="color: var(--color4);">
                                     Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
                                 </p>
-                                <img src="./assets/img/web/diseño2.png" alt="">
+
+                                <div>
+                                    <br>
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Dpremier.png" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Dcorel.png" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Dilustrator.png" alt="">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Dindesing.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Dphotoshop.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <br>
                                 <br>
                                 <div class="row">

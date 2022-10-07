@@ -28,8 +28,6 @@
             position: relative;
         }
 
-
-
         #slider img {
             /* height: 720px; */
             object-fit: cover;
@@ -149,8 +147,6 @@
             text-align: justify;
         }
 
-
-
         #valores .item {
             display: flex;
             justify-content: center;
@@ -177,7 +173,6 @@
         #valores .item .info p {
             text-align: justify;
         }
-
 
         #suscripcion {
             background-image: url(./assets/img/web/suscripcionBG.jpg);
@@ -217,7 +212,6 @@
         #suscripcion .sub:hover {
             transform: scale(1.06);
         }
-
 
         #proyecto .card {
             border: 0;
@@ -351,13 +345,11 @@
 
         /* Estilos de seccion plataform */
         #row-section-plataform {
-
             padding: 0px 40px 0px 10px;
         }
 
         #row-section-plataform p,
         h5 {
-
             color: white;
         }
 
@@ -502,7 +494,7 @@
         /* Estilos de la seccion nosotros */
         #nosotros {
             padding-top: 5rem;
-            padding-bottom: 5rem;
+            /* padding-bottom: 5rem; */
         }
 
         #nosotros p {
@@ -510,7 +502,11 @@
         }
 
         /* Estilos de cursos */
-
+        #cursos {
+            background-image: url('./assets/img/web/bg_tapiz.webp');
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
 
         #cursos .card .news {
             position: absolute;
@@ -523,19 +519,16 @@
             font-size: 14px;
             font-weight: bold;
             transform: translateY(-5%);
-
         }
 
         #cursos .card {
             border: 0px;
             border-radius: 0px;
-
         }
 
         #cursos div.card img {
             transition: .3s;
         }
-
 
         #cursos div.card:hover img {
             transform: scale(1.06);
@@ -644,14 +637,88 @@
             }
         }
 
-        /* Estilos de logros */
 
-        #logros {
+        /* Estilos de noticias */
+
+        #noticias {
             padding-top: 5rem;
             padding-bottom: 5rem;
         }
 
+        #noticias .card .news {
+            position: absolute;
+            z-index: 1;
+            /* top: 0.5px; */
+            /* left: -0.5px; */
+            top: 54%;
+            left: 30px;
+            padding: 4px 12px;
+            background-color: var(--color1);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            transform: translateY(-5%);
+        }
 
+        #noticias .card {
+            border: 0px;
+            border-radius: 0px;
+        }
+
+        #noticias div.card img {
+            transition: .3s;
+        }
+
+        #noticias div.card:hover img {
+            transform: scale(1.06);
+        }
+
+        #noticias .card-body .title {
+            font-size: 18px;
+            color: var(--color4);
+        }
+
+        #noticias .card-body .title:hover {
+            font-size: 18px;
+            color: var(--color1);
+        }
+
+        #noticias .card .detalle {
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-align: justify;
+            font-size: 17px;
+            color: #747474;
+            line-height: 1.6;
+        }
+
+        #noticias .card-footer {
+            background: var(--color1);
+            color: #fff;
+        }
+
+        #noticias .card-footer span {
+            margin-right: 10px;
+        }
+
+        #noticias img {
+            object-fit: cover;
+        }
+
+        /* animacion para aparecer */
+        /* #noticias div.card>.card-footer {
+            -webkit-animation: slide-in-top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        } */
+
+        /* Estilos de logros */
+        #logros {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
 
         /* Estilos para animacion de contador de datos importantes */
         .contador_cantidad {
@@ -691,8 +758,6 @@
             #slider img {
                 height: 100%;
             }
-
-
 
             #row-section-plataform {
                 padding-top: 50px;
@@ -802,17 +867,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg col-lg-6 my-auto">
-                    <div id="titulo">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte1">Sobre</h2>
                         <h2 id="parte2">&nbsp;Nosotros</h2>
                     </div>
                     <br>
-                    <p>Somos una Institución de Formación Técnica, ubicada en el distrito de San Juan de
-                        Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa Local 01 (UGEL 01)
-                        del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
-                    <br>
-                    <div class="about-btn mt-45">
-                        <a class="default-btn" href="about-us.html">Ver Más</a>
+                    <div class="ps-4">
+                        <p>Somos una Institución de Formación Técnica, ubicada en el distrito de San Juan de
+                            Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa Local 01 (UGEL 01)
+                            del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
+                        <br>
+                        <div class="about-btn mt-45">
+                            <a class="default-btn" href="about-us.html">Ver Más</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg col-lg-6">
@@ -822,18 +889,22 @@
             </div>
         </div>
     </section>
+
     <section id="cursos">
         <div class="container">
             <div class="row">
-                <div class="col-lg col-lg-6 my-auto">
-                    <div id="titulo">
+                <div class="col-lg col-lg-6 my-auto ps-md-0">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte2">Nuestros</h2>
                         <h2 id="parte1">&nbsp;Cursos</h2>
                     </div>
-                    <br>
-                    <p>Podrás seguir actualizándote con nuestros cursos, diseñados para que puedas
-                        seguir especializándote y con la más alta calidad educativa.
-                        Conoce nuestros cursos en Computación, Diseño Gráfico, Ind. del Vestido y Barbería.</p>
+                    <div class="ps-4">
+                        <br>
+                        <p>Podrás seguir actualizándote con nuestros cursos, diseñados para que puedas
+                            seguir especializándote y con la más alta calidad educativa.
+                            Conoce nuestros cursos en Computación, Diseño Gráfico, Ind. del Vestido y Barbería.
+                        </p>
+                    </div>
                 </div>
             </div>
             <br>
@@ -996,16 +1067,19 @@
             </div>
         </div>
     </section>
+
     <section id="logros">
         <div class="container">
             <div class="row">
                 <div class="col-lg col-lg-6 my-auto">
-                    <div id="titulo">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte2">Nuestros</h2>
                         <h2 id="parte1">&nbsp;Logros</h2>
                     </div>
-                    <br>
-                    <p>Conocer y valorar los logros nos permite compartirlo. Contamos con mas de 4000 egresados que nos respaldan nuestra calidad académica.</p>
+                    <div class="ps-4">
+                        <br>
+                        <p>Conocer y valorar los logros nos permite compartirlo. Contamos con mas de 4000 egresados que nos respaldan nuestra calidad académica.</p>
+                    </div>
                 </div>
             </div>
             <br>
@@ -1081,18 +1155,23 @@
 
         </div>
     </section>
+
     <section id="cursos">
         <div class="container">
             <div class="row">
                 <div class="col-lg col-lg-6 my-auto">
-                    <div id="titulo">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte2">Nuestras</h2>
                         <h2 id="parte1">&nbsp;Carreras</h2>
                     </div>
-                    <br>
-                    <p> Nuestras Carreras están enfocadas en desarrollar y maximizar toda la capacidad de nuestros estudiantes.
-                        Contamos con más de 25 años de experiencia lo cual nos permite asegurar grandes resultados en la educación de los estudiantes.
-                        Sé un profesional en poco tiempo, contamos con carreras de : Cosmetología, Gastronomía y Pastelería.</p>
+                    <div class="ps-4">
+                        <br>
+                        <p>
+                            Nuestras Carreras están enfocadas en desarrollar y maximizar toda la capacidad de nuestros estudiantes.
+                            Contamos con más de 25 años de experiencia lo cual nos permite asegurar grandes resultados en la educación de los estudiantes.
+                            Sé un profesional en poco tiempo, contamos con carreras de : Cosmetología, Gastronomía y Pastelería.
+                        </p>
+                    </div>
                 </div>
             </div>
             <br>
@@ -1204,9 +1283,109 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
+
+    <section id="noticias">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-lg-6 my-auto">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
+                        <h2 id="parte2">Nuestras</h2>
+                        <h2 id="parte1">&nbsp;Noticias</h2>
+                    </div>
+                    <div class="ps-4">
+                        <br>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae et porro, amet molestiae, rerum excepturi illum obcaecati nulla nisi rem maxime maiores consequuntur atque dolore cum eveniet, tempore ullam nam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia1_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">
+                                    Cursos de Pastelería , Repostería y Panadería
+                                </h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100%. Prácticas
+                                DURACIÓN DE 6 MESES
+
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia2_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia3_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia4_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">¿Ya conoces nuestros cursos y carreras?</h5>
+                            </a>
+                            <div class="detalle">
+                                Aprovecha este mes de junio con nuestras carreras técnicas 100% Practicas
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contacto">
         <div class="container">
             <div class="row">
@@ -1256,10 +1435,8 @@
         </div>
     </section>
 
-
     <!-- footer -->
     <?php include_once './includes/footer.php'; ?>
-
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

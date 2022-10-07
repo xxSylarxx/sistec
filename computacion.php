@@ -380,6 +380,15 @@
             object-fit: cover;
         }
 
+        #carrera .imgItem {
+            width: 100%;
+        }
+
+        #carrera .imgItem:hover {
+            transition: all .3s ease-in-out;
+            transform: scale(1.08);
+        }
+
         #img-icono {
             height: 40px !important;
             width: 40px !important;
@@ -629,8 +638,6 @@
                 height: 100%;
             }
 
-
-
             #row-section-plataform {
                 padding-top: 50px;
                 padding-right: 12px;
@@ -664,12 +671,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>CARRERAS</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis cumque veritatis, <br>
-                        nam sequi, harum tempora praesentium obcaecati architecto sunt corporis.</p>
+                    <p>COMPUTACIÓN</p>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="ruta">
         <div class="container py-2">
             <div class="row d-flex justify-content-">
@@ -719,7 +726,26 @@
                                     actualizarse o adquirir nuevos conocimientos, que le permitan mejorar su perfil
                                     profesional, optimizar su desempeño laboral, utilizando y administrando herramientas modernas de Tecnología de Información (IT).
                                 </p>
-                                <img src="./assets/img/web/computacion2.jpg" alt="">
+                                <div>
+                                    <br>
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Cexcel.png" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Cwindows.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Cword.png" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Cpoint.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <br>
                                 <br>
                                 <div class="row">

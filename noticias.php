@@ -5,122 +5,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/icons/escudo.png" type="image/x-icon">
+    <meta name="description" content="#">
+    <link rel="shortcut icon" href="./assets/img/icons/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
-    <title>SISTERRA</title>
+    <title>SISTEC</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <style>
-        #banner {
-            background-image: url('./assets/img/web/banerBG.jpg');
+        #portada {
+            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                url('./assets/img/web/computacion_portada_principal.jpg');
+            background-size: 100%;
+            background-position: center;
+            /* background-attachment: fixed; */
+
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+            /* mix-blend-mode: multiply; */
         }
 
-        #banner .text {
+        #portada h2 {
+            font-size: 48px;
+            color: var(--color3);
+            margin-top: 10rem;
+        }
+
+        #portada p {
+            color: var(--color3);
+            margin-bottom: 10rem;
+        }
+
+        /* Estilos de noticias */
+
+        #noticias {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        #noticias .card .news {
+            position: absolute;
+            z-index: 1;
+            /* top: 0.5px; */
+            /* left: -0.5px; */
+            top: 54%;
+            left: 30px;
+            padding: 4px 12px;
+            background-color: var(--color1);
             color: white;
-            padding: 4rem 0 4rem 0;
-        }
-
-        /* #banner .text h1 {
-            font-size: 52px;
+            font-size: 14px;
             font-weight: bold;
-            text-align: center;
-        } */
-
-        .ml10 {
-            position: relative;
-            font-weight: 900;
-            font-size: 2rem;
-            text-align: center;
+            transform: translateY(-5%);
         }
 
-        .ml10 .text-wrapper {
-            position: relative;
-            display: inline-block;
-            padding-top: 0.2em;
-            padding-right: 0.05em;
-            padding-bottom: 0.1em;
-            overflow: hidden;
+        #noticias .card {
+            border: 0px;
+            border-radius: 0px;
         }
 
-        .ml10 .letter {
-            display: inline-block;
-            line-height: 1em;
-            transform-origin: 0 0;
+        #noticias div.card img {
+            transition: .3s;
         }
 
-
-        #proyecto .card {
-            border: 0;
-            /* width: 250px; */
-            margin: 1rem 0;
+        #noticias div.card:hover img {
+            transform: scale(1.06);
         }
 
-        #proyecto .card:hover img {
-            transform: scale(1.18);
+        #noticias .card-body .title {
+            font-size: 18px;
+            color: var(--color4);
         }
 
-        #proyecto .card:hover .imgC {
-            border-radius: 10px;
-        }
-
-        #proyecto .card .imgC {
-            overflow: hidden;
-            height: 350px;
-            /* width: 250px; */
-        }
-
-        #proyecto .card img {
-            transition: all .3s ease-in-out;
-            /* border-radius: 10px; */
-            width: 100%;
-            /* width: 250px; */
-            /* height: 150px; */
-            height: 100%;
-            object-fit: cover;
-        }
-
-        #proyecto .card .card-title {
-            font-weight: bold;
-            text-transform: uppercase;
+        #noticias .card-body .title:hover {
+            font-size: 18px;
             color: var(--color1);
         }
 
-        #proyecto .card .card-body {
-            padding: 1rem 0;
-        }
-
-        #proyecto .card .card-body p {
-            margin-top: 1rem;
-            /* font-size: 16px; */
+        #noticias .card .detalle {
+            text-overflow: ellipsis;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-align: justify;
+            font-size: 17px;
+            color: #747474;
+            line-height: 1.6;
         }
 
-        #proyecto .line {
-            background-color: #DDDDDD;
-            height: 2px;
-            width: 100%;
-            margin-top: 1rem;
-        }
-
-        #proyecto .sub {
+        #noticias .card-footer {
             background: var(--color1);
-            color: var(--color3);
-            border-radius: 8px;
-            padding: 1rem 2rem;
-            transition: all .3s ease-in-out;
-            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+            color: #fff;
         }
 
-        #proyecto .sub:hover {
-            transform: scale(1.06);
+        #noticias .card-footer span {
+            margin-right: 10px;
+        }
+
+        #noticias img {
+            object-fit: cover;
         }
     </style>
 
@@ -130,132 +117,182 @@
     <!-- header -->
     <?php include_once './includes/header.php'; ?>
 
-
-    <section id="banner">
+    <section id="portada">
         <div class="container">
             <div class="row">
-                <div class="col text">
-                    <h1 class="ml10">
-                        <span class="text-wrapper">
-                            <span class="letters">NOTICIAS</span>
-                        </span>
-                    </h1>
-                    <!-- <h1>CERCANA, CERCA DE TI</h1> -->
+                <div class="col-lg-12">
+                    <h2>CARRERAS</h2>
+                    <p>NOTICIAS</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <br><br>
+    <section id="noticias">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-lg col-lg-6 my-auto">
+                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
+                        <h2 id="parte2">Nuestras</h2>
+                        <h2 id="parte1">&nbsp;Noticias</h2>
+                    </div>
+                    <div class="ps-4">
+                        <br>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae et porro, amet molestiae, rerum excepturi illum obcaecati nulla nisi rem maxime maiores consequuntur atque dolore cum eveniet, tempore ullam nam!
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+            <br>
+            <div class="row">
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia1_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">
+                                    Cursos de Pastelería , Repostería y Panadería
+                                </h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100%. Prácticas
+                                DURACIÓN DE 6 MESES
 
-    <div class="container my-5" id="proyecto" data-aos="fade-up" data-aos-duration="1500">
-        <div class="row">
-            <div class="col">
-                <h2 style="color: var(--color1);">NOTICIAS</h2>
-                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia2_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia3_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="#" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia4_portada.jpg" width="100%" height="300">
+                            <span class="news">Carreras</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="title fw-bold text-uppercase mt-4">¿Ya conoces nuestros cursos y carreras?</h5>
+                            </a>
+                            <div class="detalle">
+                                Aprovecha este mes de junio con nuestras carreras técnicas 100% Practicas
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row mt-5">
-
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                <div class="card">
-                    <div class="imgC">
-                        <img src="./assets/img/galeria/noticia1P.jpg">
-                    </div>
-                    <div class="card-body">
-                        <a href="view.php?pag=noticia1" class="card-title">Conoce las funciones de INDECI</a>
-                        <p class="card-text">Aprende con SISTERRA. En esta oportunidad conoce las funciones de INDECI(Instituto Nacional de Defensa Civil).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                <div class="card">
-                    <div class="imgC">
-                        <img src="./assets/img/galeria/noticia2P.jpg">
-                    </div>
-                    <div class="card-body">
-                        <a href="view.php?pag=noticia2" class="card-title">Conoce las funciones de CENEPRED</a>
-                        <p class="card-text">Aprende con SISTERA. En esta oportunidad conoce las funciones de CENEPRED(centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                <div class="card">
-                    <div class="imgC">
-                        <img src="./assets/img/galeria/noticia3P.jpg">
-                    </div>
-                    <div class="card-body">
-                        <a href="view.php?pag=noticia3" class="card-title">Conoce la Ley N° 29664</a>
-                        <p class="card-text">Aprende con SISTERRA. En esta oportunidad te damos a conocer la Ley N° 29664. Ley que crea el SINAGERD.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                <div class="card">
-                    <div class="imgC">
-                        <img src="./assets/img/galeria/noticia4P.png">
-                    </div>
-                    <div class="card-body">
-                        <a href="view.php?pag=noticia4" class="card-title">I Conferencia de Gestión del Riesgo de Desastres</a>
-                        <p class="card-text">¿Quieres aprender más sobre Gestión del Riesgo de Desastres? Te invitamos a participar en la I Conferencia de Gestión del Riesgo de Desastres </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                <div class="card">
-                    <div class="imgC">
-                        <img src="./assets/img/galeria/noticia5P.jpg">
-                    </div>
-                    <div class="card-body">
-                        <a href="view.php?pag=noticia5" class="card-title">Lineamientos Técnicos del Proceso de Prevención del Riesgo de Desastres</a>
-                        <p class="card-text">Aprende con SISTERRA, el 22 de agosto del 2013, el Gobierno Peruano aprobó la Resolución Ministerial N° 222-2013-PCM</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                <div class="card">
-                    <div class="imgC">
-                        <img src="./assets/img/galeria/noticia6P.png">
-                    </div>
-                    <div class="card-body">
-                        <a href="view.php?pag=noticia6" class="card-title">El Gobierno Peruano aprobó la Resolución Ministerial N° 173-2015-PCM</a>
-                        <p class="card-text">El 10 de Julio del 2015, el Gobierno Peruano aprobó la Resolución Ministerial N° 173-2015-PCM que aprueba los "Lineamientos para la Conformación y Funcionamiento de la Red Nacional de Alerta Temprana - RNAT</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <br><br>
-
+    </section>
 
     <!-- footer -->
     <?php include_once './includes/footer.php'; ?>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script>
-        // Wrap every letter in a span
-        var textWrapper = document.querySelector('.ml10 .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-        anime.timeline({
-                loop: true
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        addEventListener('DOMContentLoaded', () => {
+            const contadores = document.querySelectorAll('.contador_cantidad')
+            const velocidad = 10000000000
+
+            const animarContadores = () => {
+                for (const contador of contadores) {
+                    const actualizar_contador = () => {
+                        let cantidad_maxima = +contador.dataset.cantidadTotal,
+                            valor_actual = +contador.innerText,
+                            incremento = cantidad_maxima / velocidad
+
+                        if (valor_actual < cantidad_maxima) {
+                            contador.innerText = Math.ceil(valor_actual + incremento)
+                            setTimeout(actualizar_contador, 50)
+                        } else {
+                            contador.innerText = cantidad_maxima
+                        }
+                    }
+                    actualizar_contador()
+                }
+            }
+            //IntersectionObserver
+            const mostrarContadores = elementos => {
+                elementos.forEach(elemento => {
+                    if (elemento.isIntersecting) {
+                        elemento.target.classList.add('animar')
+                        elemento.target.classList.remove('ocultar')
+                        setTimeout(animarContadores, 600)
+                    }
+                });
+            }
+            const observer = new IntersectionObserver(mostrarContadores, {
+                threshold: 0.75 //0-1
             })
-            .add({
-                targets: '.ml10 .letter',
-                rotateY: [-90, 0],
-                // duration: 1300,
-                duration: 2000,
-                delay: (el, i) => 45 * i
-            }).add({
-                targets: '.ml10',
-                opacity: 0,
-                // duration: 1000,
-                duration: 1000,
-                easing: "easeOutExpo",
-                delay: 10000
+
+            const elementosHTML = document.querySelectorAll('.contador')
+            elementosHTML.forEach(elementoHTML => {
+                observer.observe(elementoHTML)
+            })
+        });
+    </script>
+    <script>
+        AOS.init();
+
+        const enviarCorreo = (e) => {
+            e.preventDefault();
+            let form = new FormData(document.getElementById("formContacto"));
+            fetch('/lib/correo_inicio.php', {
+                method: "POST",
+                body: form
+            }).then(function(res) {
+                return res.text();
+            }).then(function(res) {
+                alert(res);
+                e.target.reset();
             });
+        }
     </script>
 
 </body>
