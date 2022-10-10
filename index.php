@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consultora SISTERRA S.A.C. es una empresa que tiene 3 campos de acción en el marco de la Gestión del Riesgo de Desastres, Geomática, Geodesia, Gestión Ambiental, Planeamiento Estratégico y Seguridad y Defensa Nacional.">
+    <meta name="description" content="Somos una Institución de Formación Técnica, ubicada en el distrito de San Juan de Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa Local 01 (UGEL 01) del Ministerio de Educación del Perú. Formando Técnicos Emprendedores.">
     <link rel="shortcut icon" href="./assets/img/icons/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -13,6 +13,7 @@
     <title>SISTEC</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- carousel owl -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,6 +33,46 @@
             /* height: 720px; */
             object-fit: cover;
             height: 100vh;
+        }
+
+        #slider .titleContainer {
+            background: rgb(0 0 0 / 40%);
+            position: absolute;
+            /* left: 10%; */
+            padding-left: 10%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+            height: 100%;
+            padding-bottom: 20%;
+        }
+
+        #slider .titleContainer .title {
+            font-size: 60px;
+            color: #fff;
+        }
+
+        .slider-btn {
+            background-color: var(--color1);
+            color: #fff;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 21px 40px 21px;
+            text-align: center;
+            text-transform: uppercase;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            line-height: 1;
+            letter-spacing: 0.5px;
+            border-radius: 50px;
+        }
+
+        .slider-btn:hover {
+            background-color: var(--color2);
+            color: #fff;
         }
 
         #marcas .marca {
@@ -371,14 +412,16 @@
         }
 
         #contacto {
-            /* background: linear-gradient(rgba(218, 37, 28, 0.7) 100%, #ffff 10%, #ffff 50%),
-                url("./assets/img/web/tapiz2.jpg"); */
-            background-image: linear-gradient(to left top, #183883, #183883, #da251c, #da251c, #da251c);
+            /* background: linear-gradient(to bottom, rgba(218, 37, 28, 0.7) 100%, red 100%, #ffff 100%), url("./assets/img/web/formulario1.jpg"); */
+            /* background: linear-gradient(to bottom, rgba(221, 0, 0, 0.8), rgba(0, 0, 0, .8)), url("./assets/img/web/formulario1.jpg"); */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./assets/img/web/formulario3.jpg");
+            /* background-image: linear-gradient(to left top, #183883, #183883, #da251c, #da251c, #da251c); */
+            /* background-image: linear-gradient(to left top, #183883, #183883, #da251c, #da251c, #da251c), url("./assets/img/web/tapiz2.jpg"); */
             background-size: 100%;
             background-position: top;
             /* background-attachment: fixed; */
             background-repeat: no-repeat;
-            background-size: cover;
+            /* background-size: cover; */
             mix-blend-mode: multiply;
             padding: 4rem 0 4rem;
         }
@@ -637,7 +680,6 @@
             }
         }
 
-
         /* Estilos de noticias */
 
         #noticias {
@@ -791,10 +833,81 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/img/banner/banner.jpg" width="100%" alt="academia">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> COSMETOLOGÍA </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="cosmetologia.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/cosmetologia.jpg" width="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/banner/banner.jpg" width="100%" alt="academia2">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> GASTRONOMÍA </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="gastronomia.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/gastronomia.jpg" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> PASTELERÍA, PANADERÍA <br> Y REPOSTERÍA </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="pasteleria.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/pasteleria2.jpg" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> COMPUTACIÓN </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="computacion.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/computacion2.jpg" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> DISEÑO <br> GRÁFICO </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="diseno.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/diseno.jpg" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> INDUSTRÍA DEL <br> VESTIDO </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="vestido.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/vestido.jpg" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <div class="titleContainer">
+                        <div class="animate__animated animate__fadeInLeft">
+                            <h2 class="title"> BARBERÍA </h2>
+                            <div class="mt-5">
+                                <a class="slider-btn" href="barberia.php">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/banner/barberia.jpg" width="100%">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -902,7 +1015,6 @@
                         <br>
                         <p>Podrás seguir actualizándote con nuestros cursos, diseñados para que puedas
                             seguir especializándote y con la más alta calidad educativa.
-                            Conoce nuestros cursos en Computación, Diseño Gráfico, Ind. del Vestido y Barbería.
                         </p>
                     </div>
                 </div>
@@ -917,9 +1029,7 @@
                             <img src="./assets/img/web/computacion.jpg" width="100%" height="300">
                         </div>
                         <div class="card-body">
-
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">COMPUTACIÓN</h5>
-
                             <div class="detalle">
                                 Los cursos que forman parte del Área de
                                 computación permitirán al estudiante recibir
@@ -930,46 +1040,35 @@
                                 efectivo en los centros de informática de
                                 organizaciones productivas tanto públicas como privadas.
                             </div>
-
                         </div>
-
                         <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
                                     <span class="my-auto">&nbsp;Duracion: 8 meses</span>
-
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="computacion.php">Ver Más</a>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
                 <div class="col-md-3 my-3 p-0">
-
                     <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
                         <span class="news">Cursos</span>
                         <div style="overflow: hidden;">
                             <img src="./assets/img/web/diseño.jpg" width="100%" height="300">
                         </div>
                         <div class="card-body">
-
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">DISEÑO GRÁFICO</h5>
-
                             <div class="detalle">
                                 Tiene como objetivo desarrollar en el estudiante conocimientos sobre las metodologías
                                 de creación de imágenes, técnicas de expresión gráfica y apoyadas en el uso de las
                                 tecnologías de la información, adquiriendo las habilidades y capacidades para la búsqueda e
                                 implementación de soluciones visuales optimas a los problemas de la comunicación gráfica y publicitaria.
                             </div>
-
                         </div>
-
                         <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
@@ -979,26 +1078,19 @@
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="diseno.php">Ver Más</a>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
                 <div class="col-md-3 my-3 p-0">
-
                     <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
                         <span class="news">Cursos</span>
                         <div style="overflow: hidden;">
                             <img src="./assets/img/web/vestido.jpg" width="100%" height="300">
                         </div>
-
                         <div class="card-body">
-
                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">IND DEL VESTIDO</h5>
-
                             <div class="detalle">
                                 El curso de Industria del Vestido tiene la finalidad de satisfacer
                                 la demanda de personal calificado para diseñar, confeccionar, fabricar,
@@ -1006,45 +1098,34 @@
                                 selección de texturas, formas, colores; así como en la operación de equipos de
                                 la industria del vestido, que le permitan aportar y crear soluciones en el campo del diseño de modas.
                             </div>
-
                         </div>
-
                         <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
                             <div class="row p-3">
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
                                     <span class="my-auto">&nbsp;Duracion: 1 año</span>
-
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="vestido.php">Ver Más</a>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
                 <div class="col-md-3 my-3 p-0">
-
                     <div class="card shadow-sm" style="background: rgb(248, 248, 248);">
                         <span class="news">Cursos</span>
                         <div style="overflow: hidden;">
                             <img src="./assets/img/web/barberia.jpg" width="100%" height="300">
                         </div>
-
                         <div class="card-body">
-
                             <h5 class="fw-bold text-uppercase " style="font-size: 18px;color:var(--color4);">BARBERÍA</h5>
-
                             <div class="detalle">
                                 La Barbería es ya una tendencia en varones del Perú y todo el
                                 mundo. Cada vez más hombres invierten en mejorar su imagen con
                                 el estilo adecuado para ellos. Por eso, estudiar barbería y abrir
                                 una Barbería es una excelente oportunidad de negocio.
                             </div>
-
                         </div>
 
                         <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
@@ -1052,15 +1133,12 @@
                                 <div class="col-lg  d-flex justify-content-start">
                                     <img class="my-auto" src="./assets/img/icons/tiempo.png" height="20" width="20" alt="">
                                     <span class="my-auto">&nbsp;Duracion: 6 meses</span>
-
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="barberia.php">Ver Más</a>
                             </div>
-
                         </div>
-
                     </div>
 
                 </div>
@@ -1159,7 +1237,7 @@
     <section id="cursos">
         <div class="container">
             <div class="row">
-                <div class="col-lg col-lg-6 my-auto">
+                <div class="col-md-7 my-auto">
                     <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte2">Nuestras</h2>
                         <h2 id="parte1">&nbsp;Carreras</h2>
@@ -1168,9 +1246,7 @@
                         <br>
                         <p>
                             Nuestras Carreras están enfocadas en desarrollar y maximizar toda la capacidad de nuestros estudiantes.
-                            Contamos con más de 25 años de experiencia lo cual nos permite asegurar grandes resultados en la educación de los estudiantes.
-                            Sé un profesional en poco tiempo, contamos con carreras de : Cosmetología, Gastronomía y Pastelería.
-                        </p>
+                            Contamos con más de 25 años de experiencia. </p>
                     </div>
                 </div>
             </div>
@@ -1206,7 +1282,7 @@
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="cosmetologia.php">Ver Más</a>
                             </div>
 
                         </div>
@@ -1240,7 +1316,7 @@
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="gastronomia.php">Ver Más</a>
                             </div>
                         </div>
                     </div>
@@ -1271,7 +1347,7 @@
                                 </div>
                             </div>
                             <div class="course-btn">
-                                <a class="default-btn2" href="#">Ver Más</a>
+                                <a class="default-btn2" href="pasteleria.php">Ver Más</a>
                             </div>
 
                         </div>
@@ -1295,7 +1371,7 @@
                     <div class="ps-4">
                         <br>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae et porro, amet molestiae, rerum excepturi illum obcaecati nulla nisi rem maxime maiores consequuntur atque dolore cum eveniet, tempore ullam nam!
+                            Mantente informado sobre las novedades que tenemos para ti.
                         </p>
                     </div>
                 </div>
@@ -1304,12 +1380,31 @@
             <div class="row">
                 <div class="col-md-3 my-3">
                     <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
-                            <img src="./assets/img/galeria/noticia1_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
+                        <a href="view.php?pag=noticia2" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia2_portada.jpg" width="100%" height="300">
+                            <span class="news">Noticias</span>
                         </a>
                         <div class="card-body">
-                            <a href="#">
+                            <a href="view.php?pag=noticia2">
+                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>25, Agos 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="view.php?pag=noticia1" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia1_portada.jpg" width="100%" height="300">
+                            <span class="news">Noticias</span>
+                        </a>
+                        <div class="card-body">
+                            <a href="view.php?pag=noticia1">
                                 <h5 class="title fw-bold text-uppercase mt-4">
                                     Cursos de Pastelería , Repostería y Panadería
                                 </h5>
@@ -1321,37 +1416,18 @@
                             </div>
                         </div>
                         <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                            <div> <span><i class="far fa-calendar"></i></span>10, Jun 2022</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
                     <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
-                            <img src="./assets/img/galeria/noticia2_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
-                        </a>
-                        <div class="card-body">
-                            <a href="#">
-                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
-                            </a>
-                            <div class="detalle">
-                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
-                            </div>
-                        </div>
-                        <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 my-3">
-                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
+                        <a href="view.php?pag=noticia3" style="overflow: hidden;">
                             <img src="./assets/img/galeria/noticia3_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
+                            <span class="news">Noticias</span>
                         </a>
                         <div class="card-body">
-                            <a href="#">
+                            <a href="view.php?pag=noticia3">
                                 <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
                             </a>
                             <div class="detalle">
@@ -1359,18 +1435,18 @@
                             </div>
                         </div>
                         <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                            <div> <span><i class="far fa-calendar"></i></span>09, Jun 2022</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
                     <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
+                        <a href="view.php?pag=noticia4" style="overflow: hidden;">
                             <img src="./assets/img/galeria/noticia4_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
+                            <span class="news">Noticias</span>
                         </a>
                         <div class="card-body">
-                            <a href="#">
+                            <a href="view.php?pag=noticia4">
                                 <h5 class="title fw-bold text-uppercase mt-4">¿Ya conoces nuestros cursos y carreras?</h5>
                             </a>
                             <div class="detalle">
@@ -1378,7 +1454,7 @@
                             </div>
                         </div>
                         <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                            <div> <span><i class="far fa-calendar"></i></span>07, Jun 2022</div>
                         </div>
                     </div>
                 </div>
@@ -1415,7 +1491,8 @@
                             </div>
                             <div class="mt-4 d-flex justify-content-between">
                                 <div class="about-btn mt-45">
-                                    <a class="default-btn" href="about-us.html">Ver Más</a>
+                                    <a class="default-btn" href="#">Ver Más</a>
+                                    <!-- <a class="default-btn" href="https://www.google.com/maps/dir//Sistec+Av+San+Juan+821+San+Juan+de+Miraflores+15801/@-12.1599798,-76.9734364,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x9105b85a8c592c1b:0x65492f89e5540a29" target="_blank">Ver Más</a> -->
                                 </div>
                                 <div class=" d-flex justify-content-center align-items-center mt-2 mb-3 ms-md-0 ms-3" data-bs-toggle="modal" data-bs-target="#terminosModal">
                                     <input type="checkbox" value="si" required="">
@@ -1429,11 +1506,11 @@
 
     </section>
 
-    <section id="gps">
+    <!-- <section id="gps">
         <div class="container-fluid p-0">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.537526266568!2d-76.9735523!3d-12.1599529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b85a8c592c1b%3A0x65492f89e5540a29!2sSistec!5e0!3m2!1ses!2spe!4v1664646082689!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
     <?php include_once './includes/footer.php'; ?>

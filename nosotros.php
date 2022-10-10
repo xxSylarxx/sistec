@@ -18,12 +18,12 @@
 
     <style>
         #section-plataform {
-            margin-top: -50px;
+            /* margin-top: -50px;
             z-index: 99;
-            position: relative;
+            position: relative; */
+            margin-top: 5rem;
+            /* margin-bottom: 5rem; */
         }
-
-
 
         #slider img {
             /* height: 720px; */
@@ -48,6 +48,7 @@
             font-size: 48px;
             color: var(--color3);
             margin-top: 10rem;
+            margin-bottom: 10rem;
 
         }
 
@@ -69,7 +70,6 @@
 
         /* Estilos de seccion plataform */
         #row-section-plataform {
-
             padding: 0px 40px 0px 10px;
         }
 
@@ -81,7 +81,7 @@
 
         #row-section-plataform>.row {
             height: 100%;
-            background-color: var(--color1);
+            background-color: var(--color2);
             padding: 30px 15px 20px;
         }
 
@@ -622,12 +622,33 @@
             animation: aparecer 1.3s;
         }
 
+        #lema {
+            /* background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, #ffff 10%, #ffff 50%),
+                url('./assets/img/web/nosotros_lema.jpg'); */
+            background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, #ffff 10%, #ffff 50%),
+                url('./assets/img/web/nosotros_lema2.jpeg');
+            background-size: 100%;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #lema span {
+            font-family: 'Archivo Black', sans-serif;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            font-size: 5rem;
+            color: white;
+            font-weight: 900;
+        }
+
         @media (max-width: 500px) {
             #slider img {
                 height: 100%;
             }
-
-
 
             #row-section-plataform {
                 padding-top: 50px;
@@ -662,13 +683,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>NOSOTROS</h2>
-                    <p>Somos una Institución de Formación Técnica, ubicada en el distrito de<br>
+                    <!-- <p>Somos una Institución de Formación Técnica, ubicada en el distrito de<br>
                         San Juan de Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa<br>
-                        Local 01 (UGEL 01) del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
+                        Local 01 (UGEL 01) del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p> -->
                 </div>
             </div>
         </div>
     </section>
+
     <section id="ruta">
         <div class="container py-2">
             <div class="row d-flex justify-content-">
@@ -679,50 +701,116 @@
         </div>
     </section>
 
-    <section id="nosotros">
+    <section id="section-plataform">
         <div class="container">
-            <div class="row">
-                <div class="col-lg col-lg-6 my-auto">
-                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
-                        <h2 id="parte1">Sobre</h2>
-                        <h2 id="parte2">&nbsp;Nosotros</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-5" id="row-section-plataform">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <center><img src="./assets/img/icons/calendario.png" alt="" width="50" height="50"></center>
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Flexibilidad de Horarios</h5>
+                                    <br>
+                                    <p>Ofrecemos horarios flexibles e ideales para personas que trabajan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5" id="row-section-plataform">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <center><img src="./assets/img/icons/instructor.png" alt="" width="50" height="50"></center>
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Docentes Calificados</h5>
+                                    <br>
+                                    <p>Contamos con Ingenieros y Técnicos experimentados en operación y enseñanza.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <div class="ps-4">
-                        <p>Somos una Institución de Formación Técnica, ubicada en el distrito de San Juan de
-                            Miraflores, bajo la jurisdicción de la Unidad de Gestión Educativa Local 01 (UGEL 01)
-                            del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
-                        <br>
-                        <div class="about-btn mt-45">
-                            <a class="default-btn" href="about-us.html">Ver Más</a>
+                    <div class="row mt-4">
+                        <div class="col-md-5" id="row-section-plataform">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <center><img src="./assets/img/icons/libro.png" alt="" width="50" height="50"></center>
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Educación Personalizada</h5>
+                                    <br>
+                                    <p>Grupos pequeños para brindar una instrucción personalizada.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5" id="row-section-plataform">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <center><img src="./assets/img/icons/certificado.png" alt="" width="50" height="50"></center>
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Certificación</h5>
+                                    <br>
+                                    <p>Al concluir tus estudios emitiremos un certificado con valor oficial.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg col-lg-6">
-
-                    <img src="./assets/img/web/nosotros.png" class="img-fluid" alt="">
+                <div class="col-md-4">
+                    <img src="./assets/img/web/nosotros_derecha.png" width="100%" alt="">
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- <div class="container-fluid p-0">
+        <img src="./assets/img/web/diseño_portada_principal.jpg" width="100%" alt="">
+    </div> -->
+
+    <section id="lema">
+        <span>"25 años formando profesionales"</span>
+    </section>
+
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-lg-2">
+                            <div style="width: 60px;height: 60px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: var(--color5);font-size:29px;"><a href="" style="color:var(--color1);"><i class="fas fa-gem" style="margin-top:19px;margin-left:13px;"></i></a></div>
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="text-start" style="color:black;">Misión</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Formar Técnicos Emprendedores íntegros y competentes brindando una educación técnica de calidad que contribuya al desarrollo económico y ambiental del país.</p>
+                </div>
+                <div class="col-md-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-lg-2">
+                            <div style="width: 60px;height: 60px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: var(--color5);font-size:29px;"><a href="" style="color:var(--color1);"><i class="fas fa-bullseye-arrow" style="margin-top:14px;margin-left:13px;font-size:35px;"></i></a></div>
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="text-start" style="color:black;">Visión</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Ser una de las mejores instituciones líderes en educación técnica en el Perú con alcance a nivel nacional.</p>
+                </div>
+                <!-- <div class="col-lg-6 ">
+                    <center><img src="./assets/img/web/nosotros1.png" width="50%" height="600px" alt=""></center>
+                </div> -->
+            </div>
+        </div>
+    </section>
 
     <section id="logros">
         <div class="container">
-            <div class="row">
-                <div class="col-lg col-lg-6 my-auto">
-                    <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
-                        <h2 id="parte2">Nuestros</h2>
-                        <h2 id="parte1">&nbsp;Logros</h2>
-                    </div>
-                    <div class="ps-4">
-                        <br>
-                        <p>Conocer y valorar los logros nos permite compartirlo. Contamos con mas de 4000 egresados que nos respaldan nuestra calidad académica.</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
+            <br> <br>
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador animar">
                     <div class="row d-flex">
@@ -792,46 +880,6 @@
             </div>
         </div>
     </section>
-
-    <section class="mt-5">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-5 my-auto">
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <div style="width: 60px;height: 60px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: var(--color5);font-size:29px;"><a href="" style="color:var(--color1);"><i class="fas fa-gem" style="margin-top:19px;margin-left:13px;"></i></a></div>
-                        </div>
-                        <div class="col-lg-9">
-                            <h2 class="text-start" style="color:black;">Misión</h2>
-
-                        </div>
-                    </div>
-                    <br>
-                    <p>Formar Técnicos Emprendedores íntegros y competentes brindando una educación técnica de calidad que contribuya al desarrollo económico y ambiental del país.</p>
-                    <br>
-
-                    <br>
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <div style="width: 60px;height: 60px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: var(--color5);font-size:29px;"><a href="" style="color:var(--color1);"><i class="fas fa-bullseye-arrow" style="margin-top:14px;margin-left:13px;font-size:35px;"></i></a></div>
-
-                        </div>
-                        <div class="col-lg-9">
-                            <h2 class="text-start" style="color:black;">Visión</h2>
-
-                        </div>
-                    </div>
-                    <br>
-                    <p>Ser una de las mejores instituciones líderes en educación técnica en el Perú con alcance a nivel nacional.</p>
-                </div>
-                <div class="col-lg-6 ">
-                    <center><img src="./assets/img/web/nosotros1.png" width="50%" height="600px" alt=""></center>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 
 
     <!-- footer -->

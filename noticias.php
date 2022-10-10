@@ -19,7 +19,7 @@
     <style>
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/computacion_portada_principal.jpg');
+                url('./assets/img/web/noticias_portada_principal.jpg');
             background-size: 100%;
             background-position: center;
             /* background-attachment: fixed; */
@@ -121,8 +121,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>CARRERAS</h2>
-                    <p>NOTICIAS</p>
+                    <h2>Noticias</h2>
+                    <p> Mantente informado sobre las novedades que tenemos para ti.</p>
                 </div>
             </div>
         </div>
@@ -148,12 +148,31 @@
             <div class="row">
                 <div class="col-md-3 my-3">
                     <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
-                            <img src="./assets/img/galeria/noticia1_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
+                        <a href="view.php?pag=noticia2" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia2_portada.jpg" width="100%" height="300">
+                            <!-- <span class="news">Noticias</span> -->
                         </a>
                         <div class="card-body">
-                            <a href="#">
+                            <a href="view.php?pag=noticia2">
+                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
+                            </a>
+                            <div class="detalle">
+                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
+                            </div>
+                        </div>
+                        <div class="card-footer" style="font-size: 16px;">
+                            <div> <span><i class="far fa-calendar"></i></span>25, Agos 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                        <a href="view.php?pag=noticia1" style="overflow: hidden;">
+                            <img src="./assets/img/galeria/noticia1_portada.jpg" width="100%" height="300">
+                            <!-- <span class="news">Noticias</span> -->
+                        </a>
+                        <div class="card-body">
+                            <a href="view.php?pag=noticia1">
                                 <h5 class="title fw-bold text-uppercase mt-4">
                                     Cursos de Pastelería , Repostería y Panadería
                                 </h5>
@@ -165,37 +184,18 @@
                             </div>
                         </div>
                         <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                            <div> <span><i class="far fa-calendar"></i></span>10, Jun 2022</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
                     <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
-                            <img src="./assets/img/galeria/noticia2_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
-                        </a>
-                        <div class="card-body">
-                            <a href="#">
-                                <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
-                            </a>
-                            <div class="detalle">
-                                No te pierdas la oportunidad de estudiar con nosotros 100% Prácticas de manera presencial.
-                            </div>
-                        </div>
-                        <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 my-3">
-                    <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
+                        <a href="view.php?pag=noticia3" style="overflow: hidden;">
                             <img src="./assets/img/galeria/noticia3_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
+                            <!-- <span class="news">Noticias</span> -->
                         </a>
                         <div class="card-body">
-                            <a href="#">
+                            <a href="view.php?pag=noticia3">
                                 <h5 class="title fw-bold text-uppercase mt-4">CURSOS DE COSMETOLOGÍA</h5>
                             </a>
                             <div class="detalle">
@@ -203,18 +203,18 @@
                             </div>
                         </div>
                         <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                            <div> <span><i class="far fa-calendar"></i></span>09, Jun 2022</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
                     <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                        <a href="#" style="overflow: hidden;">
+                        <a href="view.php?pag=noticia4" style="overflow: hidden;">
                             <img src="./assets/img/galeria/noticia4_portada.jpg" width="100%" height="300">
-                            <span class="news">Carreras</span>
+                            <!-- <span class="news">Noticias</span> -->
                         </a>
                         <div class="card-body">
-                            <a href="#">
+                            <a href="view.php?pag=noticia4">
                                 <h5 class="title fw-bold text-uppercase mt-4">¿Ya conoces nuestros cursos y carreras?</h5>
                             </a>
                             <div class="detalle">
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                         <div class="card-footer" style="font-size: 16px;">
-                            <div> <span><i class="far fa-calendar"></i></span>07, Oct 2022</div>
+                            <div> <span><i class="far fa-calendar"></i></span>07, Jun 2022</div>
                         </div>
                     </div>
                 </div>

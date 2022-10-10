@@ -217,14 +217,14 @@
                                 <span><i class="fab fa-facebook-f"></i></span>
                             </a>
                         </div>
-                        <!-- <div class="red">
-            <a class="tw" href="#" target="_blank">
-                <span><i class="fab fa-twitter"></i></span>
-            </a>
-        </div> -->
                         <div class="red">
                             <a class="ig" href="https://www.instagram.com/tecnologicossistemas/" target="_blank">
                                 <span><i class="fab fa-instagram"></i></span>
+                            </a>
+                        </div>
+                        <div class="red">
+                            <a class="tw" href="https://www.google.com/maps/dir//Sistec+Av+San+Juan+821+San+Juan+de+Miraflores+15801/@-12.1599798,-76.9734364,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9105b85a8c592c1b:0x65492f89e5540a29!2m2!1d-76.9734364!2d-12.1599798" target="_blank">
+                                <span><i class="fas fa-map-marker-alt"></i></span>
                             </a>
                         </div>
                     </div>

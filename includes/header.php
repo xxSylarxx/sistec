@@ -62,7 +62,7 @@
             <div class="d-flex contact justify-content-start justify-content-lg-start align-items-center ">
                 <div class="contact-item">
                     <a href="https://api.whatsapp.com/send?phone=51903578533" class="me-4" target="_blank"> <i class="fas fa-phone-alt me-2"></i> <span> 903578533</span> </a>
-                    <a href="mailto:ejemplo@ejemplo.com" class="me-4" target="_blank"> <i class="fas fa-envelope me-2"></i> <span> ejemplo@ejemplo.com </span> </a>
+                    <a href="mailto:informes@sistec.edu.pe" class="me-4" target="_blank"> <i class="fas fa-envelope me-2"></i> <span> informes@sistec.edu.pe </span> </a>
                 </div>
             </div>
 
