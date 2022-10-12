@@ -19,9 +19,9 @@
     <style>
         #portada {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./assets/img/web/noticias_portada_principal.jpg');
+                url('./assets/img/web/portada_gastronomia.jpg');
             background-size: 100%;
-            background-position: center;
+            background-position: top;
             /* background-attachment: fixed; */
 
             /* background-repeat: no-repeat; */

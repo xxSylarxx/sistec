@@ -594,9 +594,6 @@
             transform: scale(1.1);
         }
 
-
-
-
         /* Estilos para animacion de contador de datos importantes */
         .contador_cantidad {
             color: var(--color2);
@@ -636,8 +633,6 @@
                 height: 100%;
             }
 
-
-
             #row-section-plataform {
                 padding-top: 50px;
                 padding-right: 12px;
@@ -676,6 +671,7 @@
             </div>
         </div>
     </section>
+
     <section id="ruta">
         <div class="container py-2">
             <div class="row d-flex justify-content-">
@@ -693,7 +689,7 @@
                     <div id="apply-area" class="py-5">
                         <img src="./assets/img/web/diseño_portada.jpg" alt="">
                         <div class=" course-apply-btn">
-                            <a href="#" class="default-btn">Inscríbete</a>
+                            <a href="index.php#contacto" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
                     <div class="">
@@ -724,25 +720,31 @@
                                 <div>
                                     <br>
                                     <div class="row justify-content-center align-items-center">
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             <img class="imgItem" src="./assets/img/web/Dpremier.png" alt="">
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             <img class="imgItem" src="./assets/img/web/Dcorel.png" alt="">
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             <img class="imgItem" src="./assets/img/web/Dilustrator.png" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img class="imgItem" src="./assets/img/web/Dindesing.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img class="imgItem" src="./assets/img/web/Dphotoshop.png" alt="">
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="row justify-content-center align-items-center">
+                                    <!-- <div class="row justify-content-center align-items-center">
                                         <div class="col-md-3">
                                             <img class="imgItem" src="./assets/img/web/Dindesing.jpg" alt="">
                                         </div>
                                         <div class="col-md-3">
                                             <img class="imgItem" src="./assets/img/web/Dphotoshop.png" alt="">
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
 
                                 <br>

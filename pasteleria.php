@@ -689,7 +689,7 @@
                     <div id="apply-area" class="py-5">
                         <img src="./assets/img/web/portada_pasteleria.webp" alt="">
                         <div class=" course-apply-btn">
-                            <a href="#" class="default-btn">Inscríbete</a>
+                            <a href="index.php#contacto" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
                     <div class="">

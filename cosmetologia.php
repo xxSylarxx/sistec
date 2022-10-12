@@ -675,11 +675,12 @@
             </div>
         </div>
     </section>
+
     <section id="ruta">
         <div class="container py-2">
             <div class="row d-flex justify-content-">
                 <div class="col-lg">
-                    <a href="./index.php">Inicio</a>
+                    <a href="index.php">Inicio</a>
                 </div>
             </div>
         </div>
@@ -692,7 +693,7 @@
                     <div id="apply-area" class="py-5">
                         <img src="./assets/img/web/cosmetologia_portada_interna2.webp" alt="">
                         <div class=" course-apply-btn">
-                            <a href="#" class="default-btn">Inscríbete</a>
+                            <a href="index.php#contacto" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
                     <div class="">

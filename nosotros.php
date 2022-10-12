@@ -49,14 +49,11 @@
             color: var(--color3);
             margin-top: 10rem;
             margin-bottom: 10rem;
-
         }
 
         #portada p {
-
             color: var(--color3);
             margin-bottom: 10rem;
-
         }
 
         #ruta {
@@ -667,6 +664,11 @@
             #row-section-plataform>.row>.col-lg-9 {
                 padding-top: 10px;
                 padding: 0px;
+            }
+
+            #lema span {
+                text-align: center;
+                font-size: 2rem;
             }
 
         }

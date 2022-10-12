@@ -414,7 +414,7 @@
         #contacto {
             /* background: linear-gradient(to bottom, rgba(218, 37, 28, 0.7) 100%, red 100%, #ffff 100%), url("./assets/img/web/formulario1.jpg"); */
             /* background: linear-gradient(to bottom, rgba(221, 0, 0, 0.8), rgba(0, 0, 0, .8)), url("./assets/img/web/formulario1.jpg"); */
-            background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./assets/img/web/formulario3.jpg");
+            background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("./assets/img/web/formulario3.jpg");
             /* background-image: linear-gradient(to left top, #183883, #183883, #da251c, #da251c, #da251c); */
             /* background-image: linear-gradient(to left top, #183883, #183883, #da251c, #da251c, #da251c), url("./assets/img/web/tapiz2.jpg"); */
             background-size: 100%;
@@ -820,6 +820,47 @@
                 padding: 0px;
             }
 
+            #slider .titleContainer .title {
+                font-size: 20px;
+            }
+
+            #slider .titleContainer {
+                padding-top: 42%;
+            }
+
+            .slider-btn {
+                padding: 10px 20px;
+            }
+
+            #section-plataform {
+                margin-top: 0;
+            }
+
+            #nosotros #parte1,
+            #nosotros #parte2 {
+                font-size: 40px;
+            }
+
+            #cursos #parte1,
+            #cursos #parte2 {
+                font-size: 40px;
+            }
+
+            #logros #parte1,
+            #logros #parte2 {
+                font-size: 40px;
+            }
+
+            #noticias #parte1,
+            #noticias #parte2 {
+                font-size: 40px;
+            }
+
+
+            #contacto {
+                background-size: 280%
+            }
+
         }
     </style>
 
@@ -836,7 +877,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> COSMETOLOGÍA </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="cosmetologia.php">Ver Más</a>
                             </div>
                         </div>
@@ -847,7 +888,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> GASTRONOMÍA </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="gastronomia.php">Ver Más</a>
                             </div>
                         </div>
@@ -858,7 +899,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> PASTELERÍA, PANADERÍA <br> Y REPOSTERÍA </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="pasteleria.php">Ver Más</a>
                             </div>
                         </div>
@@ -869,7 +910,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> COMPUTACIÓN </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="computacion.php">Ver Más</a>
                             </div>
                         </div>
@@ -880,7 +921,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> DISEÑO <br> GRÁFICO </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="diseno.php">Ver Más</a>
                             </div>
                         </div>
@@ -891,7 +932,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> INDUSTRÍA DEL <br> VESTIDO </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="vestido.php">Ver Más</a>
                             </div>
                         </div>
@@ -902,7 +943,7 @@
                     <div class="titleContainer">
                         <div class="animate__animated animate__fadeInLeft">
                             <h2 class="title"> BARBERÍA </h2>
-                            <div class="mt-5">
+                            <div class="mt-4 mt-md-5">
                                 <a class="slider-btn" href="barberia.php">Ver Más</a>
                             </div>
                         </div>
@@ -991,7 +1032,7 @@
                             del Ministerio de Educación del Perú. Formando Técnicos Emprendedores. </p>
                         <br>
                         <div class="about-btn mt-45">
-                            <a class="default-btn" href="about-us.html">Ver Más</a>
+                            <a class="default-btn" href="nosotros.php">Ver Más</a>
                         </div>
                     </div>
                 </div>
@@ -1149,21 +1190,23 @@
     <section id="logros">
         <div class="container">
             <div class="row">
-                <div class="col-lg col-lg-6 my-auto">
+                <div class="col-md my-auto">
                     <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte2">Nuestros</h2>
                         <h2 id="parte1">&nbsp;Logros</h2>
                     </div>
                     <div class="ps-4">
                         <br>
-                        <p>Conocer y valorar los logros nos permite compartirlo. Contamos con mas de 4000 egresados que nos respaldan nuestra calidad académica.</p>
+                        <p>
+                            Contamos con más de 4000 egresados que respaldan nuestra calidad académica.
+                        </p>
                     </div>
                 </div>
             </div>
             <br>
             <br>
             <div class="row d-flex justify-content-around">
-                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                <div class="col-md-3 d-flex justify-content-center contador animar">
                     <div class="row d-flex">
                         <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./assets/img/icons/institucion.png" alt="" height="50">
@@ -1176,7 +1219,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                <div class="col-md-3 d-flex justify-content-center contador animar">
                     <div class="row">
                         <div class="col-lg-4">
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/egresados.png" alt="" height="60"></div>
@@ -1193,7 +1236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                <div class="col-md-3 d-flex justify-content-center contador animar">
                     <div class="row">
                         <div class="col-lg-4">
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/carreras.png" alt="" height="60"></div>
@@ -1211,7 +1254,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex justify-content-center contador animar">
+                <div class="col-md-3 d-flex justify-content-center contador animar">
                     <div class="row">
                         <div class="col-lg-4">
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./assets/img/icons/curso.png" alt="" height="60"></div>
@@ -1237,7 +1280,7 @@
     <section id="cursos">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 my-auto">
+                <div class="col-md-6 my-auto">
                     <div id="titulo" class="ps-4" style="border-left: 3px solid var(--color1);">
                         <h2 id="parte2">Nuestras</h2>
                         <h2 id="parte1">&nbsp;Carreras</h2>
@@ -1245,8 +1288,8 @@
                     <div class="ps-4">
                         <br>
                         <p>
-                            Nuestras Carreras están enfocadas en desarrollar y maximizar toda la capacidad de nuestros estudiantes.
-                            Contamos con más de 25 años de experiencia. </p>
+                            Nuestras Carreras están enfocadas en desarrollar y maximizar la capacidad de nuestros estudiantes. Contamos con más de 25 años de experiencia.
+                        </p>
                     </div>
                 </div>
             </div>

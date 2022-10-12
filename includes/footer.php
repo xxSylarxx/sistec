@@ -202,7 +202,7 @@
                 </div>
                 <div class="col d-flex justify-content-end align-items-center py-3">
                     <div id="div-footer-inf">
-                        <p class="my-1 text-center" style="font-size: 14px; color: var(--color3);">Instituto SISTEC</p>
+                        <p class="my-1 text-center" style="font-size: 16px; color: var(--color3);">Instituto SISTEC</p>
                     </div>
 
                     <!-- <p class="my-1 text-center" style="font-size: 14px; color: var(--color3)">Desarrollado por <a href="https://www.cubicol.pe/agencia/" target="_blank" style="color: #9FC532; font-weight: bold;">Sensoft Solutions</a></p> -->

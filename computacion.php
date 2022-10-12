@@ -694,10 +694,10 @@
                     <div id="apply-area" class="py-5">
                         <img src="./assets/img/web/computacion_portada.jpg" alt="">
                         <div class=" course-apply-btn">
-                            <a href="#" class="default-btn">Inscríbete</a>
+                            <a href="index.php#contacto" class="default-btn">Inscríbete</a>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="descripcion-tab" data-bs-toggle="tab" data-bs-target="#descripcion" type="button" role="tab" aria-controls="descripcion" aria-selected="true"><i class="fas fa-align-justify"></i><span> Descripción</span></button>
@@ -735,8 +735,6 @@
                                         <div class="col-md-3">
                                             <img class="imgItem" src="./assets/img/web/Cwindows.png" alt="">
                                         </div>
-                                    </div>
-                                    <div class="row justify-content-center align-items-center">
                                         <div class="col-md-3">
                                             <img class="imgItem" src="./assets/img/web/Cword.png" alt="">
                                         </div>
@@ -744,6 +742,14 @@
                                             <img class="imgItem" src="./assets/img/web/Cpoint.png" alt="">
                                         </div>
                                     </div>
+                                    <!-- <div class="row justify-content-center align-items-center">
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Cword.png" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="imgItem" src="./assets/img/web/Cpoint.png" alt="">
+                                        </div>
+                                    </div> -->
                                 </div>
 
                                 <br>
