@@ -985,7 +985,7 @@
                         <div class="col-lg-9">
                             <h5>Docentes Calificados</h5>
                             <br>
-                            <p>Contamos con Ingenieros y Técnicos experimentados en operación y enseñanza.</p>
+                            <p>Contamos con Profesionales experimentados en operación y enseñanza.</p>
                         </div>
                     </div>
                 </div>

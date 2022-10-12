@@ -938,7 +938,7 @@
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="cosmetologia.php" class="card-title">Cosmetología</a>
+                                        <a href="./cosmetologia.php" class="card-title">Cosmetología</a>
                                         <p class="p-carrera">La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. </p>
                                     </div>
                                 </div>
@@ -947,11 +947,11 @@
                         <div class="card mb-3">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-md-4">
-                                    <img src="./assets/img/web/portada_pasteleria.jpg" alt="foto">
+                                    <img src="./assets/img/web/gastronomia_portada_interna.jpg" alt="foto">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="gastronomia.php" class="card-title">Gastronomía</a>
+                                        <a href="./gastronomia.php" class="card-title">Gastronomía</a>
                                         <p class="p-carrera">
                                             Como alumno de la Carrera de Gastronomía recibirás una formación culinaria integral, con una visión empresarial sólida, brindándote las herramientas que te permitirán desarrollar habilidades y destrezas para alcanzar los estándares que exige el mercado laboral.
                                         </p>

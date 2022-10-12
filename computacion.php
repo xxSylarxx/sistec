@@ -762,7 +762,7 @@
                                         </div>
                                         <div class="mx-5">
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/certificado2.png" alt="">
-                                            <span class="my-auto">&nbsp;Certificación a Nombre del Ministerio de Educación</span>
+                                            <span class="my-auto">&nbsp;Certificado</span>
                                         </div>
                                     </div>
                                 </div>
@@ -815,7 +815,7 @@
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>
-                                    <p>Lunes, miércoles y viernes 6-8 am</p>
+                                    <p>Lunes, miércoles y viernes 6-8 pm</p>
                                 </div>
                                 <div class="d-flex">
                                     <span><i class="fas fa-check"></i></span>

@@ -729,7 +729,7 @@
                                         </div>
                                         <div class="mx-5">
                                             <img id="img-icono" class="my-auto" src="./assets/img/icons/certificado2.png" alt="">
-                                            <span class="my-auto">&nbsp;Certificación a Nombre de la Nación</span>
+                                            <span class="my-auto">&nbsp;Certificación a nombre del Ministerio de Educación</span>
                                         </div>
 
 
@@ -931,7 +931,7 @@
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Cosmetología</a>
+                                        <a href="./cosmetologia.php" class="card-title">Cosmetología</a>
                                         <p class="p-carrera">La carrera de Cosmetología tiene como objetivo formar profesionales capaces de ocuparse de la belleza y la salud de la piel de las personas con todas las herramientas propicias a tal fin. </p>
                                     </div>
                                 </div>
@@ -944,7 +944,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <a href="#" class="card-title">Pastelería</a>
+                                        <a href="./pasteleria.php" class="card-title">Pastelería</a>
                                         <p class="p-carrera">
                                             La carrera de pastelero forma a los profesionales que se encargarán de realizar una cantidad de diversos postres, desde pan dulce hasta grandes pasteles que son encargados por los consumidores de una pastelería.
                                         </p>
