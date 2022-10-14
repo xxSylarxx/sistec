@@ -145,7 +145,7 @@
                 <h4 class="title pb-3" style="border-bottom:solid 2px var(--color1); width:min-content;">CONTACTO</h4>
                 <p class="text"> <span><i class="fas fa-location-arrow" style="color: var(--color1)"></i>Av. San Juan 821 – Frente al Colegio Maristas - SJM</p>
                 <p class="text"> <span><i class="fas fa-mobile-alt" style="color: var(--color1)"></i></span>903578533</p>
-                <p class="text"> <span><i class="fas fa-envelope" style="color: var(--color1)"></i></span>ejemplo@ejemplo.com</p>
+                <p class="text"> <span><i class="fas fa-envelope" style="color: var(--color1)"></i></span>informes@sistec.edu.pe</p>
                 <p class="text"> <span><i class="fas fa-clock" style="color: var(--color1)"></i></span> Lunes a Sabado de 8:00 am - 6:00 pm </p>
             </div>
             <div class=" col-lg-2 contact mt-md-0 mt-3 mx-3">

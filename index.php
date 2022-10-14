@@ -1525,16 +1525,16 @@
                                     <input class="form-control form-control-lg mt-3" type="text" placeholder="Nombre*" name="nombre" required="">
                                 </div>
                                 <div class="col">
-                                    <input class="form-control form-control-lg mt-3" type="text" placeholder="Correo*" name="celular" required="">
+                                    <input class="form-control form-control-lg mt-3" type="email" placeholder="Correo*" name="correo" required="">
                                 </div>
                             </div>
-                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Asunto*" name="correo" required="">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Asunto*" name="asunto" required="">
                             <div class="mt-3">
                                 <textarea class="form-control form-control-lg" rows="3" placeholder="Mensaje*" name="mensaje" required=""></textarea>
                             </div>
                             <div class="mt-4 d-flex justify-content-between">
                                 <div class="about-btn mt-45">
-                                    <a class="default-btn" href="#">Ver Más</a>
+                                    <button class="default-btn" type="submit" href="#">Enviar</button>
                                     <!-- <a class="default-btn" href="https://www.google.com/maps/dir//Sistec+Av+San+Juan+821+San+Juan+de+Miraflores+15801/@-12.1599798,-76.9734364,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x9105b85a8c592c1b:0x65492f89e5540a29" target="_blank">Ver Más</a> -->
                                 </div>
                                 <div class=" d-flex justify-content-center align-items-center mt-2 mb-3 ms-md-0 ms-3" data-bs-toggle="modal" data-bs-target="#terminosModal">
@@ -1548,13 +1548,19 @@
             </div>
 
     </section>
-
-    <!-- <section id="gps">
-        <div class="container-fluid p-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.537526266568!2d-76.9735523!3d-12.1599529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b85a8c592c1b%3A0x65492f89e5540a29!2sSistec!5e0!3m2!1ses!2spe!4v1664646082689!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Políticas de Privacidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="./assets/files/POLITICAS_DE_PRIVACIDAD_SISTEC.pdf" width="100%" frameborder="0" height="580"></iframe>
+            </div>
         </div>
-    </section> -->
-
+    </div>
+</div>
     <!-- footer -->
     <?php include_once './includes/footer.php'; ?>
 
@@ -1636,21 +1642,23 @@
     </script>
     <script>
         AOS.init();
-
-        const enviarCorreo = (e) => {
-            e.preventDefault();
-            let form = new FormData(document.getElementById("formContacto"));
-            fetch('/lib/correo_inicio.php', {
-                method: "POST",
-                body: form
-            }).then(function(res) {
-                return res.text();
-            }).then(function(res) {
-                alert(res);
-                e.target.reset();
-            });
-        };
     </script>
+    <script>
+    function enviarCorreo(e){
+        e.preventDefault();
+        const data = new FormData(document.getElementById('formContacto'));
+        fetch('./lib/correo_mailer.php',{
+            method:'POST',
+            body:data
+        }).then(function(res){
+            return res.text();
+        }).then(function(res){
+           alert(res);
+        }).then(function(res){
+            e.target.reset();
+        });
+    }
+</script>
 
 
 </body>
